@@ -1,4 +1,23 @@
-export default [
+function changeIds(obj) {
+  let myId = 1
+  const iterate = (obj) => {
+    obj.id = myId
+    myId++
+    Object.keys(obj).forEach(key => {
+
+      if (typeof obj[key] === 'object') {
+        iterate(obj[key])
+      }
+    })
+  }
+  iterate(obj)
+  const fs = require('fs');
+
+  let data = JSON.stringify(obj);
+  fs.writeFileSync('temp.json', data);
+}
+
+const data = [
 	{
 		"id": 2,
 		"name": "Programming Languages",
@@ -42,117 +61,118 @@ export default [
 		"name": "Frontend",
 		"children": [
 			{
-				"id": 14,
+				"id": 11,
 				"name": "Vanilla JS"
-			},
-			{
-				"id": 15,
+      },
+      {
+				"id": 14,
 				"name": "Styling",
 				"children": [
 					{
-						"id": 17,
+						"id": 16,
 						"name": "CSS3"
-					},
-					{
-						"id": 18,
+          },
+          {
+						"id": 16,
 						"name": "Flexbox"
 					},
-					{
-						"id": 19,
+          {
+						"id": 16,
 						"name": "CSS Media Queries"
-					},
-					{
-						"id": 20,
-						"name": "Fonts",
-						"children": [
-							{
-								"id": 22,
+          },
+          {
+						"id": 16,
+            "name": "Fonts",
+            children: [
+              {
+								"id": 20,
 								"name": "EOT"
-							},
-							{
-								"id": 23,
+              },
+              {
+								"id": 20,
 								"name": "SVG"
-							},
-							{
-								"id": 24,
+              },
+              {
+								"id": 20,
 								"name": "TTF"
-							},
-							{
-								"id": 25,
+              },
+              {
+								"id": 20,
 								"name": "WOFF"
-							},
-							{
-								"id": 26,
+              },
+              {
+								"id": 20,
 								"name": "WOFF2"
-							}
-						]
-					},
-					{
-						"id": 27,
+              },
+              
+            ]
+          },
+          {
+						"id": 16,
 						"name": "Responsive Design"
 					},
 					{
-						"id": 28,
+						"id": 17,
 						"name": "SASS"
-					},
+          },
 					{
-						"id": 29,
+						"id": 17,
 						"name": "styled-components"
-					},
+          },
 					{
-						"id": 30,
+						"id": 17,
 						"name": "Material-UI Theme Spacing"
 					}
 				]
 			},
 			{
-				"id": 31,
+				"id": 14,
 				"name": "React",
 				"children": [
 					{
-						"id": 33,
+						"id": 16,
 						"name": "Redux"
 					},
 					{
-						"id": 34,
+						"id": 17,
 						"name": "Next.js"
 					},
 					{
-						"id": 35,
+						"id": 18,
 						"name": "Animation Libraries",
 						"children": [
 							{
-								"id": 37,
+								"id": 20,
 								"name": "Framer Motion"
 							}
 						]
 					},
 					{
-						"id": 38,
+						"id": 21,
 						"name": "Component Libraries",
 						"children": [
 							{
-								"id": 40,
+								"id": 23,
 								"name": "Material UI"
 							},
 							{
-								"id": 41,
+								"id": 24,
 								"name": "Semantic UI React"
 							},
 							{
-								"id": 42,
+								"id": 25,
 								"name": "React Bootstrap"
 							},
 							{
-								"id": 43,
+								"id": 26,
 								"name": "Reactstrap"
 							},
 							{
-								"id": 44,
+								"id": 27,
 								"name": "Material UI"
 							},
 							{
-								"id": 45,
+								"id": 28,
 								"name": "Material UI"
 							}
 						]
@@ -160,91 +180,93 @@ export default [
 				]
 			},
 			{
-				"id": 46,
+				"id": 29,
 				"name": "Angular"
 			},
 			{
-				"id": 47,
+				"id": 30,
 				"name": "Vue.js",
 				"children": [
 					{
-						"id": 49,
+						"id": 32,
 						"name": "Nuxt.js"
 					}
 				]
 			},
 			{
-				"id": 50,
+				"id": 33,
 				"name": "jQuery"
 			},
 			{
-				"id": 51,
+				"id": 34,
 				"name": "Webpack"
-			},
+      },
 			{
-				"id": 52,
+				"id": 34,
 				"name": "Babel"
 			}
 		]
 	},
 	{
-		"id": 53,
+		"id": 35,
 		"name": "Backend",
 		"children": [
 			{
-				"id": 55,
+				"id": 37,
 				"name": "Frontend",
 				"children": [
 					{
-						"id": 57,
+						"id": 39,
 						"name": "React"
 					}
 				]
 			},
 			{
-				"id": 58,
+				"id": 40,
 				"name": "Ruby"
 			}
 		]
 	},
 	{
-		"id": 59,
+		"id": 41,
 		"name": "DevOps",
 		"children": [
 			{
-				"id": 61,
+				"id": 43,
 				"name": "Child - 4"
 			}
 		]
 	},
 	{
-		"id": 62,
+		"id": 44,
 		"name": "Build Tools",
 		"children": [
 			{
-				"id": 64,
+				"id": 46,
 				"name": "Child - 4"
 			}
 		]
 	},
 	{
-		"id": 65,
+		"id": 47,
 		"name": "Operating Systems",
 		"children": [
 			{
-				"id": 67,
+				"id": 49,
 				"name": "Child - 4"
 			}
 		]
 	},
 	{
-		"id": 68,
+		"id": 50,
 		"name": "Network",
 		"children": [
 			{
-				"id": 70,
+				"id": 52,
 				"name": "Child - 4"
 			}
 		]
 	}
 ]
+
+changeIds(data)
