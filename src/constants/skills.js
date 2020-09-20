@@ -121,7 +121,15 @@ export default [
 				"children": [
 					{
 						"id": 33,
+						"name": "React Hooks"
+          },
+          {
+						"id": 33,
 						"name": "Redux"
+          },
+					{
+						"id": 34,
+						"name": "Jest"
 					},
 					{
 						"id": 34,
@@ -156,14 +164,6 @@ export default [
 							{
 								"id": 43,
 								"name": "Reactstrap"
-							},
-							{
-								"id": 44,
-								"name": "Material UI"
-							},
-							{
-								"id": 45,
-								"name": "Material UI"
 							}
 						]
 					}
@@ -199,21 +199,37 @@ export default [
 	},
 	{
 		"id": 53,
-		"name": "Backend",
+		"name": "Database",
 		"children": [
 			{
 				"id": 55,
-				"name": "Frontend",
+				"name": "MongoDB",
 				"children": [
+          {
+						"id": 57,
+						"name": "Mongoose"
+          },
 					{
 						"id": 57,
-						"name": "React"
-					}
+						"name": "MongoDB Atlas"
+          },
+          {
+						"id": 57,
+						"name": "MongoDB Stitch"
+          }
 				]
+      },
+			{
+				"id": 58,
+				"name": "SQLite"
+      },
+      {
+				"id": 58,
+				"name": "MySQL"
 			},
 			{
 				"id": 58,
-				"name": "Ruby"
+				"name": "SQL Server"
 			}
 		]
 	},
@@ -239,20 +255,10 @@ export default [
 	},
 	{
 		"id": 65,
-		"name": "Operating Systems",
+		"name": "OS",
 		"children": [
 			{
 				"id": 67,
-				"name": "Child - 4"
-			}
-		]
-	},
-	{
-		"id": 68,
-		"name": "Network",
-		"children": [
-			{
-				"id": 70,
 				"name": "Child - 4"
 			}
 		]
