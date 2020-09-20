@@ -13,11 +13,21 @@ export default [
 			},
 			{
 				"id": 6,
-				"name": "JavaScript"
-			},
+        "name": "JavaScript",
+        "children": [
+          {
+            "id": 7,
+            "name": "TypeScript"
+          },
+          {
+            "id": 7,
+            "name": "D3.js"
+          }
+        ]
+      },
 			{
-				"id": 7,
-				"name": "TypeScript"
+				"id": 11,
+				"name": "Ruby"
 			},
 			{
 				"id": 8,
@@ -30,10 +40,10 @@ export default [
 			{
 				"id": 10,
 				"name": "C++"
-			},
+      },
 			{
-				"id": 11,
-				"name": "Ruby"
+				"id": 10,
+				"name": "R"
 			}
 		]
 	},
