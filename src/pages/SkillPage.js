@@ -22,11 +22,11 @@ export default function SkillPage() {
 
   return (
     <div className={classes.root}>
-      <Grid container spacing={3}>
-        <Grid item xs={4} sm={3} md={2}>
+      <Grid container spacing={0}>
+        <Grid item xs={5} sm={4} md={3}>
           <SkillTree data={treeData} />
         </Grid>
-        <Grid item xs={8} sm={9} md={10}>
+        <Grid item xs={7} sm={8} md={9}>
           <SkillComponent />
         </Grid>
       </Grid>
