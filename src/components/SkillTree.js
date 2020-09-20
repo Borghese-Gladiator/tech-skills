@@ -89,12 +89,12 @@ export default function RecursiveTreeView(props) {
   return (
     <TreeView
       className={classes.root}
-      defaultExpanded={['1']}
+      defaultExpanded={[]}
       defaultCollapseIcon={<MinusSquare />}
       defaultExpandIcon={<PlusSquare />}
       defaultEndIcon={<CloseSquare />}
     >
-      {renderTree(data)}
+      {data.map((val, idx) => renderTree(val))}
     </TreeView>
   );
 }

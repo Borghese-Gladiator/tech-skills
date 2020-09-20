@@ -17,7 +17,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function CenteredGrid() {
+export default function SkillPage() {
   const classes = useStyles();
 
   return (
