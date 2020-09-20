@@ -15,6 +15,9 @@ const useStyles = makeStyles((theme) => ({
     textAlign: 'center',
     color: theme.palette.text.secondary,
   },
+  paddingTop: {
+    paddingTop: 25
+  }
 }));
 
 export default function SkillPage() {
@@ -24,7 +27,7 @@ export default function SkillPage() {
   return (
     <div className={classes.root}>
       <Grid container spacing={0}>
-        <Grid item xs={5} sm={4} md={3}>
+        <Grid item xs={5} sm={4} md={3} className={classes.paddingTop}>
           <SkillTree data={treeData} />
         </Grid>
         <Grid item xs={7} sm={8} md={9}>
