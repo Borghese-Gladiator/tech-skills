@@ -1,6 +1,9 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Navbar from './components/Navbar'
+import Footer from './components/Footer'
+import SkillPage from './pages/SkillPage'
 
 function App() {
   return (
@@ -19,6 +22,9 @@ function App() {
           Learn React
         </a>
       </header>
+      <Navbar />
+      <SkillPage />
+      <Footer />
     </div>
   );
 }
