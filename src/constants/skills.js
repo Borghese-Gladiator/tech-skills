@@ -53,8 +53,14 @@ export default [
 		"children": [
 			{
 				"id": 14,
-				"name": "Vanilla JS"
-			},
+        "name": "Vanilla JS",
+        "children": [
+					{
+						"id": 17,
+						"name": "HTML5"
+					}
+        ]
+      },
 			{
 				"id": 15,
 				"name": "Styling",
@@ -165,8 +171,12 @@ export default [
 								"id": 43,
 								"name": "Reactstrap"
 							}
-						]
-					}
+						],
+          },
+					{
+						"id": 34,
+						"name": "React Router"
+					},
 				]
 			},
 			{
@@ -194,7 +204,31 @@ export default [
 			{
 				"id": 52,
 				"name": "Babel"
-			}
+      },
+      {
+				"id": 14,
+        "name": "WebRTC",
+			},
+		]
+  },
+	{
+		"id": 65,
+		"name": "Automated Tests",
+		"children": [
+			{
+				"id": 67,
+        "name": "App Performance Test",
+        "children": [
+          {
+            "id": 67,
+            "name": "Lighthouse"
+          }
+        ]
+      },
+      {
+				"id": 67,
+				"name": "API Testing"
+      }
 		]
 	},
 	{
@@ -262,5 +296,5 @@ export default [
 				"name": "Child - 4"
 			}
 		]
-	}
+  },
 ]
