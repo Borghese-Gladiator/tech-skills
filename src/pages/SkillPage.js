@@ -20,6 +20,7 @@ const useStyles = makeStyles((theme) => ({
 export default function SkillPage() {
   const classes = useStyles();
 
+  // Spacing 0 necessary to prevent horizontal scroll bar
   return (
     <div className={classes.root}>
       <Grid container spacing={0}>
