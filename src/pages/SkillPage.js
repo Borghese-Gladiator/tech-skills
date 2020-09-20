@@ -23,10 +23,10 @@ export default function CenteredGrid() {
   return (
     <div className={classes.root}>
       <Grid container spacing={3}>
-        <Grid item xs={4}>
+        <Grid item xs={4} sm={3} md={2}>
           <SkillTree data={treeData} />
         </Grid>
-        <Grid item xs={8}>
+        <Grid item xs={8} sm={9} md={10}>
           <SkillComponent />
         </Grid>
       </Grid>
