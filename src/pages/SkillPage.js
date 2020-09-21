@@ -16,7 +16,8 @@ const useStyles = makeStyles((theme) => ({
     color: theme.palette.text.secondary,
   },
   paddingTop: {
-    paddingTop: 25
+    paddingTop: 25,
+    paddingLeft: '1vw'
   }
 }));
 
