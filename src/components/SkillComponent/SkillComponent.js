@@ -40,6 +40,16 @@ export default class SkillComponent extends React.Component {
             <br />
             {'"a benevolent smile"'}
           </Typography>
+          <Typography>
+            {
+              Object.keys(skillObj).includes("features") ?
+              <ul>
+                {skillObj.features.map((val, idx) => {
+                  return <li>{val}</li>
+                })}
+              </ul> : <></>
+            }
+          </Typography>
         </CardContent>
         <CardActions>
           <Button size="small">Learn More</Button>
