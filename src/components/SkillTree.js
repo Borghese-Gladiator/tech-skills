@@ -77,11 +77,26 @@ const useStyles = makeStyles({
 
 export default function RecursiveTreeView(props) {
   const classes = useStyles();
-  const { data } = props
-  console.log(data)
+  const { data, parentClickHandler } = props
+
+  const renderLabel = node => (
+    <span
+      onClick={event => {
+        console.log(node.id);
+        // setActiveItemId(node.id);
+        // if you want after click do expand/collapse comment this two line
+        event.stopPropagation();
+        event.preventDefault();
+        parentClickHandler(node.name)
+      }}
+    >
+      {node.name}
+    </span>
+  );
 
   const renderTree = (nodes) => (
-    <StyledTreeItem key={nodes.id} nodeId={nodes.id} label={nodes.name}>
+    // Material UI:  onLabelClick={handleClick} does not allow customization
+    <StyledTreeItem key={nodes.id} nodeId={nodes.id} label={renderLabel(nodes)}>
       {Array.isArray(nodes.children) ? nodes.children.map((node) => renderTree(node)) : null}
     </StyledTreeItem>
   );
@@ -89,7 +104,7 @@ export default function RecursiveTreeView(props) {
   return (
     <TreeView
       className={classes.root}
-      defaultExpanded={[12]}
+      defaultExpanded={[]}
       defaultCollapseIcon={<MinusSquare />}
       defaultExpandIcon={<PlusSquare />}
       defaultEndIcon={<CloseSquare />}

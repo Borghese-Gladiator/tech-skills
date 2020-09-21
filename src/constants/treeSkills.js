@@ -475,8 +475,16 @@ export default [
 			},
 			{
 				"id": 136,
-				"name": "Kaban",
+				"name": "Kaban Board",
 				"children": [
+					{
+						"id": 138,
+						"name": "Backlog"
+					},
+					{
+						"id": 138,
+						"name": "WIP Limits"
+					},
 					{
 						"id": 138,
 						"name": "Jira"
