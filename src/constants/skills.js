@@ -325,8 +325,12 @@ export default [
 			},
 			{
 				"id": 93,
+				"name": "PostgreSQL"
+			},
+			{
+				"id": 93,
 				"name": "SQL Server"
-			}
+			},
 		]
 	},
 	{
