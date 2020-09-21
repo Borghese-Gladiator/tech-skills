@@ -537,7 +537,7 @@ function genSkillName(obj) {
   const iterate = (skillSet, obj) => {
     if (!Object.keys(skillSet).includes(obj["name"])) {
       skillSet[obj["name"]] = {
-        name: "DEFAULT VALUE",
+        name: obj["name"],
         docLink: "https://reactjs.org/",
         tag: [],
         desc: "DEFAULT DESC",
