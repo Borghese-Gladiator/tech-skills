@@ -328,117 +328,117 @@ const data = [
 				"name": "PostgreSQL"
 			},
 			{
-				"id": 93,
+				"id": 94,
 				"name": "SQL Server"
-			},
+			}
 		]
 	},
 	{
-		"id": 94,
+		"id": 95,
 		"name": "DevOps (CI/CD)",
 		"children": [
 			{
-				"id": 96,
+				"id": 97,
 				"name": "Jenkins",
 				"children": [
 					{
-						"id": 98,
+						"id": 99,
 						"name": "Scripted Pipelines"
 					},
 					{
-						"id": 99,
+						"id": 100,
 						"name": "Declarative Pipelines"
 					},
 					{
-						"id": 100,
+						"id": 101,
 						"name": "Executor"
 					},
 					{
-						"id": 101,
+						"id": 102,
 						"name": "cron"
 					}
 				]
 			},
 			{
-				"id": 101,
+				"id": 103,
 				"name": "GitLab",
 				"children": [
 					{
-						"id": 98,
+						"id": 105,
 						"name": "Worker"
-					},
+					}
 				]
-			},
+			}
 		]
 	},
 	{
-		"id": 102,
+		"id": 106,
 		"name": "Build Tools",
 		"children": [
 			{
-				"id": 104,
+				"id": 108,
 				"name": "Gradle"
 			},
 			{
-				"id": 105,
+				"id": 109,
 				"name": "Maven"
 			},
 			{
-				"id": 106,
+				"id": 110,
 				"name": "Ant"
 			},
 			{
-				"id": 107,
+				"id": 111,
 				"name": "Webpack"
 			},
 			{
-				"id": 108,
+				"id": 112,
 				"name": "Gulp"
 			}
 		]
 	},
 	{
-		"id": 109,
+		"id": 113,
 		"name": "OS",
 		"children": [
 			{
-				"id": 111,
+				"id": 115,
 				"name": "Windows",
 				"children": [
 					{
-						"id": 113,
+						"id": 117,
 						"name": "Powershell"
 					},
 					{
-						"id": 114,
+						"id": 118,
 						"name": "Batch Scripts"
 					}
 				]
 			},
 			{
-				"id": 115,
+				"id": 119,
 				"name": "Linux",
 				"children": [
 					{
-						"id": 117,
+						"id": 121,
 						"name": "Bash"
 					},
 					{
-						"id": 118,
+						"id": 122,
 						"name": "CentOS",
 						"children": [
 							{
-								"id": 120,
+								"id": 124,
 								"name": "yum"
 							}
 						]
 					},
 					{
-						"id": 121,
+						"id": 125,
 						"name": "Ubuntu",
 						"children": [
 							{
-								"id": 123,
+								"id": 127,
 								"name": "apt-get"
 							}
 						]
@@ -446,89 +446,97 @@ const data = [
 				]
 			},
 			{
-				"id": 124,
+				"id": 128,
 				"name": "Android"
 			},
 			{
-				"id": 125,
+				"id": 129,
 				"name": "iOS"
 			}
 		]
 	},
 	{
-		"id": 102,
+		"id": 130,
 		"name": "Code Collab",
 		"children": [
 			{
-				"id": 104,
+				"id": 132,
 				"name": "VCS",
 				"children": [
 					{
-						"id": 105,
+						"id": 134,
 						"name": "Git"
 					},
 					{
-						"id": 105,
+						"id": 135,
 						"name": "Git"
-					},
+					}
 				]
 			},
 			{
-				"id": 105,
-				"name": "Kaban",
+				"id": 136,
+				"name": "Kaban Board",
 				"children": [
 					{
-						"id": 105,
+						"id": 138,
+						"name": "Backlog"
+					},
+					{
+						"id": 138,
+						"name": "WIP Limits"
+					},
+					{
+						"id": 138,
 						"name": "Jira"
 					},
 					{
-						"id": 105,
+						"id": 139,
 						"name": "Trello"
 					}
 				]
 			},
 			{
-				"id": 106,
+				"id": 140,
 				"name": "Agile",
 				"children": [
 					{
-						"id": 105,
+						"id": 142,
 						"name": "Sprint Planning"
 					},
 					{
-						"id": 105,
+						"id": 143,
 						"name": "Daily Stand Up"
 					},
 					{
-						"id": 105,
+						"id": 144,
 						"name": "Sprint Review"
 					},
 					{
-						"id": 105,
+						"id": 145,
 						"name": "Sprint Retrospective"
-					},
+					}
 				]
 			},
 			{
-				"id": 107,
+				"id": 146,
 				"name": "Slack"
 			},
 			{
-				"id": 107,
+				"id": 147,
 				"name": "Microsoft Teams"
 			},
 			{
-				"id": 108,
+				"id": 148,
 				"name": "Discord"
 			}
 		]
-	},
+	}
 ]
 
 function changeIds(obj) {
   let myId = 1
   const iterate = (obj) => {
-    obj.id = myId
+    obj.id = myId.toString()
     myId++
     Object.keys(obj).forEach(key => {
 

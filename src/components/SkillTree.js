@@ -104,7 +104,7 @@ export default function RecursiveTreeView(props) {
   return (
     <TreeView
       className={classes.root}
-      defaultExpanded={[]}
+      defaultExpanded={["15"]}
       defaultCollapseIcon={<MinusSquare />}
       defaultExpandIcon={<PlusSquare />}
       defaultEndIcon={<CloseSquare />}
