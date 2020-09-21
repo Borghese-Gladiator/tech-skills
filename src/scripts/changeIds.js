@@ -539,7 +539,6 @@ function changeIds(obj) {
     obj.id = myId.toString()
     myId++
     Object.keys(obj).forEach(key => {
-
       if (typeof obj[key] === 'object') {
         iterate(obj[key])
       }
