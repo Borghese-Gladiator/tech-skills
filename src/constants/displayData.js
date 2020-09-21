@@ -4,33 +4,33 @@
 export default {
 	"<audio>": {
 		"name": "<audio>",
-		"docLink": "https://reactjs.org/",
-		"tag": [],
-		"desc": "DEFAULT DESC"
+		"docLink": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio",
+		"tag": ["HTML5", "JavaScript", "WebRTC", "MP3", "FLAC", "WAV", "AIFF"],
+		"desc": "Embed sound element in page. Use the <source> element and can use WebRTC to redirect audio."
 	},
 	"<figcaption>": {
 		"name": "<figcaption>",
-		"docLink": "https://reactjs.org/",
-		"tag": [],
-		"desc": "DEFAULT DESC"
+		"docLink": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figcaption",
+		"tag": ["HTML5", "<figure>"],
+		"desc": "Caption for a <figure> element"
 	},
 	"<figure>": {
 		"name": "<figure>",
-		"docLink": "https://reactjs.org/",
-		"tag": [],
-		"desc": "DEFAULT DESC"
+		"docLink": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure",
+		"tag": ["HTML5", "<figcaption>"],
+		"desc": "Self-contained content (eg: image, illustration, diagram, code snippet)"
 	},
 	"Agile": {
 		"name": "Agile",
-		"docLink": "https://reactjs.org/",
-		"tag": [],
-		"desc": "DEFAULT DESC"
+		"docLink": "https://agilemanifesto.org/",
+		"tag": ["Project Management", "SMART Goals", "Collaboration"],
+		"desc": "Agile is an iterative approach to project management and software development that helps teams deliver value to their customers faster and with fewer headaches. Instead of betting everything on a \"big bang\" launch, an agile team delivers work in small, but consumable, increments. Requirements, plans, and results are evaluated continuously so teams have a natural mechanism for responding to change quickly."
 	},
 	"Android": {
 		"name": "Android",
 		"docLink": "https://reactjs.org/",
-		"tag": [],
-		"desc": "DEFAULT DESC"
+		"tag": ["OS"],
+		"desc": "Android is Google OS for mobile devices "
 	},
 	"Angular": {
 		"name": "Angular",
