@@ -447,7 +447,13 @@ export default [
 			},
 			{
 				"id": "128",
-				"name": "Android"
+				"name": "Android",
+				"children": [
+					{
+						"id": "128-1",
+						"name": "Android Studio",
+					}
+				]
 			},
 			{
 				"id": "129",
