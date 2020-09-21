@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import SvgIcon from '@material-ui/core/SvgIcon';
 import { fade, makeStyles, withStyles } from '@material-ui/core/styles';
+import Container from '@material-ui/core/Container'
 import TreeView from '@material-ui/lab/TreeView';
 import TreeItem from '@material-ui/lab/TreeItem';
 import Collapse from '@material-ui/core/Collapse';
@@ -102,14 +103,17 @@ export default function RecursiveTreeView(props) {
   );
 
   return (
-    <TreeView
-      className={classes.root}
-      defaultExpanded={["15"]}
-      defaultCollapseIcon={<MinusSquare />}
-      defaultExpandIcon={<PlusSquare />}
-      defaultEndIcon={<CloseSquare />}
-    >
-      {data.map((val, idx) => renderTree(val))}
-    </TreeView>
+    <Container>
+      <h2>Topics</h2>
+      <TreeView
+        className={classes.root}
+        defaultExpanded={["15"]}
+        defaultCollapseIcon={<MinusSquare />}
+        defaultExpandIcon={<PlusSquare />}
+        defaultEndIcon={<CloseSquare />}
+      >
+        {data.map((val, idx) => renderTree(val))}
+      </TreeView>
+    </Container>
   );
 }
