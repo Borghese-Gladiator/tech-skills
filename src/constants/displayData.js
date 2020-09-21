@@ -29,20 +29,37 @@ export default {
 	"Android": {
 		"name": "Android",
 		"docLink": "https://reactjs.org/",
-		"tag": ["OS"],
-		"desc": "Android is Google OS for mobile devices "
+		"tag": ["OS", "Mobile", ],
+		"desc": "Android is a popular, Linux-based mobile phone operating system (maintained by Google)."
+	},
+	"Android Studio": {
+		"name": "Android Studio",
+		"docLink": "https://developer.android.com/",
+		"tag": ["Android", "IDE", "XML", "Android Emulator", "APK Analyzer"],
+		"desc": "Official IDE for Android built atop of IntelliJ",
+		"features": [
+			"Gradle-based build support",
+			"Android-specific refactoring and quick fixes",
+			"Lint tools to catch performance, usability, version compatibility and other problems",
+			"ProGuard integration and app-signing capabilities",
+			"Template-based wizards to create common Android designs and components",
+			"A rich layout editor that allows users to drag-and-drop UI components, option to preview layouts on multiple screen configurations",
+			"Support for building Android Wear apps",
+			"Built-in support for Google Cloud Platform, enabling integration with Firebase Cloud Messaging (Earlier 'Google Cloud Messaging') and Google App Engine[18]",
+			"Android Virtual Device (Emulator) to run and debug apps in the Android studio."
+		]
 	},
 	"Angular": {
 		"name": "Angular",
-		"docLink": "https://reactjs.org/",
-		"tag": [],
-		"desc": "DEFAULT DESC"
+		"docLink": "https://angular.io/",
+		"tag": ["Frontend", "TypeScript", "HTML Template Syntax"],
+		"desc": "Frontend JS Framework to build Mobile & Desktop applications. As a framework, starting an app creates an extensive directory structure"
 	},
 	"Animation Libraries": {
 		"name": "Animation Libraries",
-		"docLink": "https://reactjs.org/",
-		"tag": [],
-		"desc": "DEFAULT DESC"
+		"docLink": "https://en.wikipedia.org/wiki/CSS_animations",
+		"tag": ["Frontend", "React"],
+		"desc": "Frontend animation libraries enable easier animations instead of just using CSS3 custom animations to fade, hover, or other. "
 	},
 	"Ant": {
 		"name": "Ant",
