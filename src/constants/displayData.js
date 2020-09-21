@@ -3,415 +3,415 @@
 
 export default {
 	"<audio>": {
-		"name": "DEFAULT VALUE",
+		"name": "<audio>",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"<figcaption>": {
-		"name": "DEFAULT VALUE",
+		"name": "<figcaption>",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"<figure>": {
-		"name": "DEFAULT VALUE",
+		"name": "<figure>",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"Agile": {
-		"name": "DEFAULT VALUE",
+		"name": "Agile",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"Android": {
-		"name": "DEFAULT VALUE",
+		"name": "Android",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"Angular": {
-		"name": "DEFAULT VALUE",
+		"name": "Angular",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"Animation Libraries": {
-		"name": "DEFAULT VALUE",
+		"name": "Animation Libraries",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"Ant": {
-		"name": "DEFAULT VALUE",
+		"name": "Ant",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"App Performance Test": {
-		"name": "DEFAULT VALUE",
+		"name": "App Performance Test",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"Automated Tests": {
-		"name": "DEFAULT VALUE",
+		"name": "Automated Tests",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"Babel": {
-		"name": "DEFAULT VALUE",
+		"name": "Babel",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"Backlog": {
-		"name": "DEFAULT VALUE",
+		"name": "Backlog",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"Bash": {
-		"name": "DEFAULT VALUE",
+		"name": "Bash",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"Batch Scripts": {
-		"name": "DEFAULT VALUE",
+		"name": "Batch Scripts",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"Build Tools": {
-		"name": "DEFAULT VALUE",
+		"name": "Build Tools",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"C": {
-		"name": "DEFAULT VALUE",
+		"name": "C",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"C#": {
-		"name": "DEFAULT VALUE",
+		"name": "C#",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"C++": {
-		"name": "DEFAULT VALUE",
+		"name": "C++",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"CSS Media Queries": {
-		"name": "DEFAULT VALUE",
+		"name": "CSS Media Queries",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"CSS3": {
-		"name": "DEFAULT VALUE",
+		"name": "CSS3",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"CentOS": {
-		"name": "DEFAULT VALUE",
+		"name": "CentOS",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"Chai": {
-		"name": "DEFAULT VALUE",
+		"name": "Chai",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"Code Collab": {
-		"name": "DEFAULT VALUE",
+		"name": "Code Collab",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"Component Libraries": {
-		"name": "DEFAULT VALUE",
+		"name": "Component Libraries",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"D3.js": {
-		"name": "DEFAULT VALUE",
+		"name": "D3.js",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"Daily Stand Up": {
-		"name": "DEFAULT VALUE",
+		"name": "Daily Stand Up",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"Database": {
-		"name": "DEFAULT VALUE",
+		"name": "Database",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"Declarative Pipelines": {
-		"name": "DEFAULT VALUE",
+		"name": "Declarative Pipelines",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"DevOps (CI/CD)": {
-		"name": "DEFAULT VALUE",
+		"name": "DevOps (CI/CD)",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"Discord": {
-		"name": "DEFAULT VALUE",
+		"name": "Discord",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"EOT": {
-		"name": "DEFAULT VALUE",
+		"name": "EOT",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"Executor": {
-		"name": "DEFAULT VALUE",
+		"name": "Executor",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"Flexbox": {
-		"name": "DEFAULT VALUE",
+		"name": "Flexbox",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"Fonts": {
-		"name": "DEFAULT VALUE",
+		"name": "Fonts",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"Framer Motion": {
-		"name": "DEFAULT VALUE",
+		"name": "Framer Motion",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"Frontend": {
-		"name": "DEFAULT VALUE",
+		"name": "Frontend",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"Gatsby.js": {
-		"name": "DEFAULT VALUE",
+		"name": "Gatsby.js",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"Git": {
-		"name": "DEFAULT VALUE",
+		"name": "Git",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"GitLab": {
-		"name": "DEFAULT VALUE",
+		"name": "GitLab",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"Gradle": {
-		"name": "DEFAULT VALUE",
+		"name": "Gradle",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"Gulp": {
-		"name": "DEFAULT VALUE",
+		"name": "Gulp",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"HTML5": {
-		"name": "DEFAULT VALUE",
+		"name": "HTML5",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"Java": {
-		"name": "DEFAULT VALUE",
+		"name": "Java",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"JavaScript": {
-		"name": "DEFAULT VALUE",
+		"name": "JavaScript",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"Jenkins": {
-		"name": "DEFAULT VALUE",
+		"name": "Jenkins",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"Jest": {
-		"name": "DEFAULT VALUE",
+		"name": "Jest",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"Jira": {
-		"name": "DEFAULT VALUE",
+		"name": "Jira",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"Kaban Board": {
-		"name": "DEFAULT VALUE",
+		"name": "Kaban Board",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"Lighthouse": {
-		"name": "DEFAULT VALUE",
+		"name": "Lighthouse",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"Linux": {
-		"name": "DEFAULT VALUE",
+		"name": "Linux",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"Material UI": {
-		"name": "DEFAULT VALUE",
+		"name": "Material UI",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"Material-UI Theme Spacing": {
-		"name": "DEFAULT VALUE",
+		"name": "Material-UI Theme Spacing",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"Maven": {
-		"name": "DEFAULT VALUE",
+		"name": "Maven",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"Microsoft Teams": {
-		"name": "DEFAULT VALUE",
+		"name": "Microsoft Teams",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"Mocha": {
-		"name": "DEFAULT VALUE",
+		"name": "Mocha",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"MongoDB": {
-		"name": "DEFAULT VALUE",
+		"name": "MongoDB",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"MongoDB Atlas": {
-		"name": "DEFAULT VALUE",
+		"name": "MongoDB Atlas",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"MongoDB Stitch": {
-		"name": "DEFAULT VALUE",
+		"name": "MongoDB Stitch",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"Mongoose": {
-		"name": "DEFAULT VALUE",
+		"name": "Mongoose",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"MySQL": {
-		"name": "DEFAULT VALUE",
+		"name": "MySQL",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"Next.js": {
-		"name": "DEFAULT VALUE",
+		"name": "Next.js",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"Nose": {
-		"name": "DEFAULT VALUE",
+		"name": "Nose",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"Nuxt.js": {
-		"name": "DEFAULT VALUE",
+		"name": "Nuxt.js",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"OS": {
-		"name": "DEFAULT VALUE",
+		"name": "OS",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"PostgreSQL": {
-		"name": "DEFAULT VALUE",
+		"name": "PostgreSQL",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"Powershell": {
-		"name": "DEFAULT VALUE",
+		"name": "Powershell",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"Programming Languages": {
-		"name": "DEFAULT VALUE",
+		"name": "Programming Languages",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"Python": {
-		"name": "DEFAULT VALUE",
+		"name": "Python",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"R": {
-		"name": "DEFAULT VALUE",
+		"name": "R",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
@@ -423,265 +423,264 @@ export default {
 		"desc": "JS Frontend library to build UI components with state lifecycles"
 	},
 	"React Bootstrap": {
-		"name": "DEFAULT VALUE",
+		"name": "React Bootstrap",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"React Hooks": {
-		"name": "DEFAULT VALUE",
+		"name": "React Hooks",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"React Router": {
-		"name": "DEFAULT VALUE",
+		"name": "React Router",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"Reactstrap": {
-		"name": "DEFAULT VALUE",
+		"name": "Reactstrap",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"Redux": {
-		"name": "DEFAULT VALUE",
+		"name": "Redux",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"Responsive Design": {
-		"name": "DEFAULT VALUE",
+		"name": "Responsive Design",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"Ruby": {
-		"name": "DEFAULT VALUE",
+		"name": "Ruby",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"SASS": {
-		"name": "DEFAULT VALUE",
+		"name": "SASS",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"SQL Server": {
-		"name": "DEFAULT VALUE",
+		"name": "SQL Server",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"SQLite": {
-		"name": "DEFAULT VALUE",
+		"name": "SQLite",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"SVG": {
-		"name": "DEFAULT VALUE",
+		"name": "SVG",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"Scripted Pipelines": {
-		"name": "DEFAULT VALUE",
+		"name": "Scripted Pipelines",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"Selenium": {
-		"name": "DEFAULT VALUE",
+		"name": "Selenium",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"Semantic UI React": {
-		"name": "DEFAULT VALUE",
+		"name": "Semantic UI React",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"SinonJS": {
-		"name": "DEFAULT VALUE",
+		"name": "SinonJS",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"Slack": {
-		"name": "DEFAULT VALUE",
+		"name": "Slack",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"Sprint Planning": {
-		"name": "DEFAULT VALUE",
+		"name": "Sprint Planning",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"Sprint Retrospective": {
-		"name": "DEFAULT VALUE",
+		"name": "Sprint Retrospective",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"Sprint Review": {
-		"name": "DEFAULT VALUE",
+		"name": "Sprint Review",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"Styling": {
-		"name": "DEFAULT VALUE",
+		"name": "Styling",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"TTF": {
-		"name": "DEFAULT VALUE",
+		"name": "TTF",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"Trello": {
-		"name": "DEFAULT VALUE",
+		"name": "Trello",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"TypeScript": {
-		"name": "DEFAULT VALUE",
+		"name": "TypeScript",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"UI Testing": {
-		"name": "DEFAULT VALUE",
+		"name": "UI Testing",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"Ubuntu": {
-		"name": "DEFAULT VALUE",
+		"name": "Ubuntu",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"Unit Testing": {
-		"name": "DEFAULT VALUE",
+		"name": "Unit Testing",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"VCS": {
-		"name": "DEFAULT VALUE",
+		"name": "VCS",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"Vanilla JS": {
-		"name": "DEFAULT VALUE",
+		"name": "Vanilla JS",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"Vue.js": {
-		"name": "DEFAULT VALUE",
+		"name": "Vue.js",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"WIP Limits": {
-		"name": "DEFAULT VALUE",
+		"name": "WIP Limits",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"WOFF": {
-		"name": "DEFAULT VALUE",
+		"name": "WOFF",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"WOFF2": {
-		"name": "DEFAULT VALUE",
+		"name": "WOFF2",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"WebRTC": {
-		"name": "DEFAULT VALUE",
+		"name": "WebRTC",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"Webpack": {
-		"name": "DEFAULT VALUE",
+		"name": "Webpack",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"Windows": {
-		"name": "DEFAULT VALUE",
+		"name": "Windows",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"Worker": {
-		"name": "DEFAULT VALUE",
+		"name": "Worker",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"apt-get": {
-		"name": "DEFAULT VALUE",
+		"name": "apt-get",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"cron": {
-		"name": "DEFAULT VALUE",
+		"name": "cron",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"iOS": {
-		"name": "DEFAULT VALUE",
+		"name": "iOS",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"jQuery": {
-		"name": "DEFAULT VALUE",
+		"name": "jQuery",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"styled-components": {
-		"name": "DEFAULT VALUE",
+		"name": "styled-components",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"undefined": {
-		"name": "DEFAULT VALUE",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"unittest": {
-		"name": "DEFAULT VALUE",
+		"name": "unittest",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
 	},
 	"yum": {
-		"name": "DEFAULT VALUE",
+		"name": "yum",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"desc": "DEFAULT DESC"
