@@ -27,14 +27,20 @@ export default class SkillComponent extends React.Component {
       <Card className="root" variant="outlined">
         <CardContent>
           <Typography className="title" color="textSecondary" gutterBottom>
-            Word of the Day 
+            Buzz Word
           </Typography>
-          <Typography variant="h5" component="h2">
+          <Typography variant="h4" component="h2">
             {skillObj.name}
           </Typography>
-          <Typography className="pos" color="textSecondary">
-            adjective
-          </Typography>
+          <div className="flex-row">
+            {skillObj.tag.map((val, idx) => {
+              return (
+                <Typography className="pos" color="textSecondary" className="row-flex-item">
+                  {val}
+                </Typography>
+              )
+            })}
+          </div>
           <Typography variant="body2" component="p">
             well meaning and kindly.
             <br />

@@ -8,9 +8,21 @@
   transform: scale(0.8);
 }
 
-title {
+.title {
   font-size: 14;
 }
-pos {
+.pos {
   margin-bottom: 12;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row; 
+}
+
+.row-flex-item {
+  flex:1 1 auto;
+  text-align:center;
+
+  margin:5px;  /* and that, will result in a 10px gap */
 }
