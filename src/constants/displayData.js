@@ -6,7 +6,7 @@ export default {
 		"name": "<audio>",
 		"docLink": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio",
 		"tag": ["HTML5", "JavaScript", "WebRTC", "MP3", "FLAC", "WAV", "AIFF"],
-		"desc": "Embed sound element in page. Use the <source> element and can use WebRTC to redirect audio."
+		"desc": "HTML5 element to embed sound element in page. Use the <source> element and can use WebRTC to redirect audio."
 	},
 	"<figcaption>": {
 		"name": "<figcaption>",
