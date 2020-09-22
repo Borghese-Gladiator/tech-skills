@@ -1,11 +1,38 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
+import CardHeader from '@material-ui/core/CardHeader'
 import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
+import IconButton from '@material-ui/core/IconButton'
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
+import Link from '@material-ui/core/Link';
+import ListItem from '@material-ui/core/ListItem'
+import ListItemAvatar from '@material-ui/core/ListItemAvatar'
+import ListItemText from '@material-ui/core/ListItemText'
+import LinkIcon from '@material-ui/icons/Link';
 import './SkillComponent.css'
+
+
+const CustomLinkButton = (link) => {
+  return (
+    <Link target="_blank" rel="noopener noreferrer"
+      href={link}
+      style={{
+        color: 'inherit',
+        fontSize: "12px"
+      }}
+    >
+      <ListItem button>
+        <ListItemAvatar>
+          <LinkIcon />
+        </ListItemAvatar>
+        <ListItemText primary={"More Info"} />
+      </ListItem>
+    </Link>
+  )
+}
 
 export default class SkillComponent extends React.Component {
   constructor(props) {
@@ -21,36 +48,39 @@ export default class SkillComponent extends React.Component {
   render() {
     const bull = <span className="bullet">•</span>;
     console.log(this.state)
-    const { skillObj } = this.state
-    console.log(skillObj)
+    const { name, tag, desc, docLink, features } = this.state.skillObj
+    
     return (
       <Card className="root" variant="outlined">
+        <CardHeader
+          action={
+            <IconButton aria-label="settings">
+              <CustomLinkButton link={docLink} />
+            </IconButton>
+          }
+          title={name}
+          titleTypographyProps={{align:"center", fontSize: 500}}
+          disableTypography={false}
+        />
         <CardContent>
-          <Typography className="title" color="textSecondary" gutterBottom>
-            Buzz Word
-          </Typography>
-          <Typography variant="h4" component="h2">
-            {skillObj.name}
-          </Typography>
-          <div className="flex-row">
-            {skillObj.tag.map((val, idx) => {
+          <div className="flex-row pos">
+            {tag.map((val, idx) => {
               return (
-                <Typography className="pos" color="textSecondary" className="row-flex-item">
+                <Typography color="textSecondary" className="row-flex-item">
                   {val}
                 </Typography>
               )
             })}
           </div>
           <Typography variant="body2" component="p">
-            well meaning and kindly.
-            <br />
-            {'"a benevolent smile"'}
+            {desc}
           </Typography>
           <Typography>
             {
-              Object.keys(skillObj).includes("features") ?
+              // if undefined, will not map anything
+              features ?
               <ul>
-                {skillObj.features.map((val, idx) => {
+                {features.map((val, idx) => {
                   return <li>{val}</li>
                 })}
               </ul> : <></>
