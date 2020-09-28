@@ -14,7 +14,6 @@ import ListItemText from '@material-ui/core/ListItemText'
 import LinkIcon from '@material-ui/icons/Link';
 import './SkillComponent.css'
 
-
 const CustomLinkButton = (link) => {
   return (
     <Link target="_blank" rel="noopener noreferrer"
