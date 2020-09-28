@@ -9,7 +9,7 @@ import SkillPage from './pages/SkillPage'
 function App() {
   return (
     <div className="App">
-      <Header logo={logo} />
+      <Header />
       <SkillPage />
       <Footer />
     </div>
