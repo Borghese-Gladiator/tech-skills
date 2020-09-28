@@ -1,5 +1,4 @@
 import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import CardHeader from '@material-ui/core/CardHeader'
 import CardActions from '@material-ui/core/CardActions';
@@ -14,7 +13,8 @@ import ListItemText from '@material-ui/core/ListItemText'
 import LinkIcon from '@material-ui/icons/Link';
 import './SkillComponent.css'
 
-const CustomLinkButton = (link) => {
+const CustomLinkButton = (props) => {
+  const { link, text } = props
   return (
     <Link target="_blank" rel="noopener noreferrer"
       href={link}
@@ -27,7 +27,7 @@ const CustomLinkButton = (link) => {
         <ListItemAvatar>
           <LinkIcon />
         </ListItemAvatar>
-        <ListItemText primary={"More Info"} />
+        <ListItemText primary={text} />
       </ListItem>
     </Link>
   )
@@ -45,20 +45,14 @@ export default class SkillComponent extends React.Component {
     this.setState({...this.state, skillObj})
   }
   render() {
-    const bull = <span className="bullet">•</span>;
     console.log(this.state)
-    const { name, tag, desc, docLink, features } = this.state.skillObj
+    const { name, tag, desc, docLink, features, relatedLinks } = this.state.skillObj
     
     return (
       <Card className="root" variant="outlined">
         <CardHeader
-          action={
-            <IconButton aria-label="settings">
-              <CustomLinkButton link={docLink} />
-            </IconButton>
-          }
           title={name}
-          titleTypographyProps={{align:"center", fontSize: 500}}
+          titleTypographyProps={{align:"center", variant:'h3'}}
           disableTypography={false}
         />
         <CardContent>
@@ -71,6 +65,7 @@ export default class SkillComponent extends React.Component {
               )
             })}
           </div>
+          <br />
           <Typography variant="body2" component="p">
             {desc}
           </Typography>
@@ -87,7 +82,9 @@ export default class SkillComponent extends React.Component {
           </Typography>
         </CardContent>
         <CardActions>
-          <Button size="small">Learn More</Button>
+          <IconButton aria-label="settings">
+            <CustomLinkButton link={docLink} text={"Official Docs"} />
+          </IconButton>
         </CardActions>
       </Card>
     );
