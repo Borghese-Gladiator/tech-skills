@@ -64,8 +64,8 @@ export default {
 	"Ant": {
 		"name": "Ant",
 		"docLink": "https://reactjs.org/",
-		"tag": [],
-		"desc": "DEFAULT DESC"
+		"tag": ["Build Tools", "XML", "Java"],
+		"desc": "(Build.xml). (Legacy build tool - see Maven & Gradle). Apache Ant is a Java library and command-line tool whose mission is to drive processes described in build files as targets and extension points dependent upon each other. "
 	},
 	"App Performance Test": {
 		"name": "App Performance Test",
@@ -255,9 +255,9 @@ export default {
 	},
 	"Gradle": {
 		"name": "Gradle",
-		"docLink": "https://reactjs.org/",
-		"tag": [],
-		"desc": "DEFAULT DESC"
+		"docLink": "https://gradle.org/",
+		"tag": ["Build Tools", "Java", ],
+		"desc": "Far improved Java build tool as compared to Maven & Ant which both need long configuration files by definition. Gradle uses plugins and lets people use plugins like Jacoco with one command."
 	},
 	"Gulp": {
 		"name": "Gulp",
@@ -333,9 +333,12 @@ export default {
 	},
 	"Maven": {
 		"name": "Maven",
-		"docLink": "https://reactjs.org/",
-		"tag": [],
-		"desc": "DEFAULT DESC"
+		"docLink": "https://maven.apache.org/maven-features.html",
+		"tag": ["Build Tools", "Java"],
+		"desc": "Uses POM (project object model) files to load dependencies from Maven Central (a repo). As a build tool, we use it to build our Java executables.",
+		"relatedLinks": [
+			{"text": "Gradle", "link": "https://gradle.org/"}
+		]
 	},
 	"Microsoft Teams": {
 		"name": "Microsoft Teams",
