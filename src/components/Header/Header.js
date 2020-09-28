@@ -13,7 +13,7 @@ export default function Header() {
       <img src={iconPath} className="App-logo" alt="logo" />
       <p>
         Group my skills with directory structure. <br />
-        (also try Material UI Lab components like TreeView)
+        (used Material UI Lab components like TreeView)
       </p>
       <p>
         Learn more everyday:

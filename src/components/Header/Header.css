@@ -1,11 +1,26 @@
 .App-logo {
-  height: 40vmin;
+  height: 20vmin;
   pointer-events: none;
+  -webkit-filter: invert(1);
+  filter: invert(1);
+}
+
+.App-logo:hover {
+  -webkit-filter: invert(0);
+  filter: invert(0);
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
+  }
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
   }
 }
 
@@ -22,13 +37,4 @@
 
 .App-link {
   color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
