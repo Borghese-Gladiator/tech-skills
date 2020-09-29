@@ -52,27 +52,53 @@ export default [
 		"name": "Frontend",
 		"children": [
 			{
+				"id": "19",
+				"name": "HTML5",
+				"children": [
+					{
+						"id": "21",
+						"name": "<audio>"
+					},
+					{
+						"id": "22",
+						"name": "<figure>"
+					},
+					{
+						"id": "23",
+						"name": "<figcaption>"
+					}
+				]
+			},
+			{
 				"id": "17",
 				"name": "Vanilla JS",
 				"children": [
 					{
-						"id": "19",
-						"name": "HTML5",
-						"children": [
-							{
-								"id": "21",
-								"name": "<audio>"
-							},
-							{
-								"id": "22",
-								"name": "<figure>"
-							},
-							{
-								"id": "23",
-								"name": "<figcaption>"
-							}
-						]
+						"id": "170",
+						"name": "DOM Surgery",
+					},
+					{
+						"id": "171",
+						"name": "JS Asynchrony",
 					}
+				]
+			},
+			{
+				"id": "172",
+				"name": "Browser Storage",
+				"children": [
+					{
+						"id": "173",
+						"name": "Session Storage",
+					},
+					{
+						"id": "174",
+						"name": "Local Storage",
+					},
+					{
+						"id": "175",
+						"name": "Cookies",
+					},
 				]
 			},
 			{
