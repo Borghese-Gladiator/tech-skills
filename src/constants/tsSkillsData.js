@@ -139,21 +139,21 @@ export default {
 	},
 	"Batch Scripts": {
 		"name": "Batch Scripts",
-		"docLink": "https://reactjs.org/",
-		"tag": [],
-		"descMarkdown": "DEFAULT DESC"
+		"docLink": "https://en.wikipedia.org/wiki/Batch_file",
+		"tag": ["Windows"],
+		"descMarkdown": "# (.bat) Windows Batch Scripting\nSince DOS, Batch scripts have been useful for Windows to automate OS directory & file stuff.\nToday, it's still useful to get anything quick working, but involved scripts should use Powershell which can do heavy lifting for Windows scripts"
 	},
 	"Browser Storage": {
 		"name": "Browser Storage",
-		"docLink": "https://reactjs.org/",
-		"tag": [],
-		"descMarkdown": "DEFAULT DESC"
+		"docLink": "https://medium.com/@krishankantsinghal/local-storage-vs-session-storage-vs-cookie-22655ff75a8",
+		"tag": ["Frontend", "Web Dev"],
+		"descMarkdown": "Previously, browsers could only store cookies.\n After HTML5, localStorage stores key/value pairs in the browser w/o expiring. However, it has a small limit and not secure\n Session Storage stores data per session until browser (or tab) is closed. Therefore, multiple tabs has multiple session storage instances.\nCookies store data to be sent to server in subsequent XHR requests (primarily for server-side rendering)"
 	},
 	"Build Tools": {
 		"name": "Build Tools",
-		"docLink": "https://reactjs.org/",
-		"tag": [],
-		"descMarkdown": "DEFAULT DESC"
+		"docLink": "https://en.wikipedia.org/wiki/List_of_build_automation_software",
+		"tag": ["Dev", "Staging", "Production"],
+		"descMarkdown": "Build tools automate creating executables. Use tools to test create **production** builds of product.\n* Android = apk\n* Windows installer = exe, msi\nJava executables = war, jar"
 	},
 	"C": {
 		"name": "C",
