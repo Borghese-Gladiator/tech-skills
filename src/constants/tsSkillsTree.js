@@ -262,6 +262,10 @@ export default [
 					{
 						"id": "69",
 						"name": "Lighthouse"
+					},
+					{
+						"id": "300",
+						"name": "React Optimization"
 					}
 				]
 			},
