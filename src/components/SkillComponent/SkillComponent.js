@@ -84,6 +84,19 @@ export default class SkillComponent extends React.Component {
           <IconButton aria-label="settings">
             <CustomLinkButton link={docLink} text={"Official Docs"} />
           </IconButton>
+          {
+            // if undefined, will not map anything
+            relatedLinks ?
+            <div>
+              {relatedLinks.map((val, idx) => {
+                return (
+                  <IconButton aria-label="icon-button">
+                    <CustomLinkButton link={val["link"]} text={val["text"]} />
+                  </IconButton>
+                )
+              })}
+            </div> : <></>
+          }
         </CardActions>
       </Card>
     );
