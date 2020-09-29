@@ -1,7 +1,7 @@
 import React from 'react'
 import './Header.css'
 
-const iconPath = process.env.PUBLIC_URL + '/assets/icons/' + 'icons8-learn-more-64.png';
+const iconPath = process.env.PUBLIC_URL + '/assets/icons/icons8-learn-more-64.png';
 
 export default function Header() {
   
