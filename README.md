@@ -8,6 +8,8 @@
 ### Author
 Borghese-Gladiator
 
+## Create-React-App
+Automatically generated content below:
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
