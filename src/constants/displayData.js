@@ -6,19 +6,19 @@ export default {
 		"name": "<audio>",
 		"docLink": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio",
 		"tag": ["HTML5", "JavaScript", "WebRTC", "MP3", "FLAC", "WAV", "AIFF"],
-		"descMarkdown": "HTML5 element to embed sound element in page. Use the <source> element and can use WebRTC to redirect audio."
+		"descMarkdown": `HTML5 element to embed sound element in page. Use the <source> element and can use WebRTC to redirect audio.`
 	},
 	"<figcaption>": {
 		"name": "<figcaption>",
 		"docLink": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figcaption",
 		"tag": ["HTML5", "<figure>"],
-		"descMarkdown": "Caption for a <figure> element"
+		"descMarkdown": `Caption for a <figure> element`
 	},
 	"<figure>": {
 		"name": "<figure>",
 		"docLink": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure",
 		"tag": ["HTML5", "<figcaption>"],
-		"descMarkdown": "Self-contained content (eg: image, illustration, diagram, code snippet)"
+		"descMarkdown": `Self-contained content (eg: image, illustration, diagram, code snippet)`
 	},
 	"Agile": {
 		"name": "Agile",
@@ -69,9 +69,23 @@ export default {
 	},
 	"App Performance Test": {
 		"name": "App Performance Test",
-		"docLink": "https://reactjs.org/",
-		"tag": [],
-		"descMarkdown": "DEFAULT DESC"
+		"docLink": "https://developers.google.com/web/tools/lighthouse",
+		"tag": ["Web Dev"],
+		"descMarkdown": `
+			
+		Performance Testing is different for desktops and web apps.
+			For web apps, you can test domain load speed, bundle size, and 
+				* load tests
+				* stress tests
+				* spike tests - rapidly increase workload
+				* endurance tests (soak tests) - app performance over long time (find memory leaks)
+				* scalability tests - gradually increase workload
+				* Volume tests
+			Web Dev Performanc Testing Tools
+				* Lighthouse (built into Chrome DevTools)
+				* KeyCDN (haven't used, but heard OK)
+			Desktop - record some test scenario & use some tools (I'm pretty unfamiliar)
+		`
 	},
 	"Automated Tests": {
 		"name": "Automated Tests",
@@ -422,7 +436,8 @@ export default {
 		"name": "Programming Languages",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
-		"descMarkdown": "DEFAULT DESC"
+		"descMarkdown": `# Header 1 \n## Header 2\n* blah\n* blah
+		`
 	},
 	"Python": {
 		"name": "Python",
