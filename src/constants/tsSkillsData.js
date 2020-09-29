@@ -5,37 +5,64 @@ export default {
 	"<audio>": {
 		"name": "<audio>",
 		"docLink": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio",
-		"tag": ["HTML5", "JavaScript", "WebRTC", "MP3", "FLAC", "WAV", "AIFF"],
-		"descMarkdown": `#HTML5 element \n* Used to embed a sound element in the page.\n* Can use the <source> element and WebRTC to redirect audio.`
+		"tag": [
+			"HTML5",
+			"JavaScript",
+			"WebRTC",
+			"MP3",
+			"FLAC",
+			"WAV",
+			"AIFF"
+		],
+		"descMarkdown": "# HTML5 element \n* Used to embed a sound element in the page.\n* Can use the <source> element and WebRTC to redirect audio."
 	},
 	"<figcaption>": {
 		"name": "<figcaption>",
 		"docLink": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figcaption",
-		"tag": ["HTML5", "<figure>"],
-		"descMarkdown": `Caption for a <figure> element`
+		"tag": [
+			"HTML5",
+			"<figure>"
+		],
+		"descMarkdown": "Caption for a <figure> element"
 	},
 	"<figure>": {
 		"name": "<figure>",
 		"docLink": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure",
-		"tag": ["HTML5", "<figcaption>"],
-		"descMarkdown": `Self-contained content (eg: image, illustration, diagram, code snippet)`
+		"tag": [
+			"HTML5",
+			"<figcaption>"
+		],
+		"descMarkdown": "Self-contained content (eg: image, illustration, diagram, code snippet)"
 	},
 	"Agile": {
 		"name": "Agile",
 		"docLink": "https://agilemanifesto.org/",
-		"tag": ["Project Management", "SMART Goals", "Collaboration"],
+		"tag": [
+			"Project Management",
+			"SMART Goals",
+			"Collaboration"
+		],
 		"descMarkdown": "Agile is an iterative approach to project management and software development that helps teams deliver value to their customers faster and with fewer headaches. Instead of betting everything on a \"big bang\" launch, an agile team delivers work in small, but consumable, increments. Requirements, plans, and results are evaluated continuously so teams have a natural mechanism for responding to change quickly."
 	},
 	"Android": {
 		"name": "Android",
 		"docLink": "https://reactjs.org/",
-		"tag": ["OS", "Mobile", ],
+		"tag": [
+			"OS",
+			"Mobile"
+		],
 		"descMarkdown": "Android is a popular, Linux-based mobile phone operating system (maintained by Google)."
 	},
 	"Android Studio": {
 		"name": "Android Studio",
 		"docLink": "https://developer.android.com/",
-		"tag": ["Android", "IDE", "XML", "Android Emulator", "APK Analyzer"],
+		"tag": [
+			"Android",
+			"IDE",
+			"XML",
+			"Android Emulator",
+			"APK Analyzer"
+		],
 		"descMarkdown": "Official IDE for Android built atop of IntelliJ",
 		"features": [
 			"Gradle-based build support",
@@ -52,40 +79,39 @@ export default {
 	"Angular": {
 		"name": "Angular",
 		"docLink": "https://angular.io/",
-		"tag": ["Frontend", "TypeScript", "HTML Template Syntax"],
+		"tag": [
+			"Frontend",
+			"TypeScript",
+			"HTML Template Syntax"
+		],
 		"descMarkdown": "Frontend JS Framework to build Mobile & Desktop applications. As a framework, starting an app creates an extensive directory structure"
 	},
 	"Animation Libraries": {
 		"name": "Animation Libraries",
 		"docLink": "https://en.wikipedia.org/wiki/CSS_animations",
-		"tag": ["Frontend", "React"],
+		"tag": [
+			"Frontend",
+			"React"
+		],
 		"descMarkdown": "Frontend animation libraries enable easier animations instead of just using CSS3 custom animations to fade, hover, or other. "
 	},
 	"Ant": {
 		"name": "Ant",
 		"docLink": "https://reactjs.org/",
-		"tag": ["Build Tools", "XML", "Java"],
+		"tag": [
+			"Build Tools",
+			"XML",
+			"Java"
+		],
 		"descMarkdown": "(Build.xml). (Legacy build tool - see Maven & Gradle). Apache Ant is a Java library and command-line tool whose mission is to drive processes described in build files as targets and extension points dependent upon each other. "
 	},
 	"App Performance Test": {
 		"name": "App Performance Test",
 		"docLink": "https://developers.google.com/web/tools/lighthouse",
-		"tag": ["Web Dev"],
-		"descMarkdown": `
-			
-		Performance Testing is different for desktops and web apps.
-			For web apps, you can test domain load speed, bundle size, and 
-				* load tests
-				* stress tests
-				* spike tests - rapidly increase workload
-				* endurance tests (soak tests) - app performance over long time (find memory leaks)
-				* scalability tests - gradually increase workload
-				* Volume tests
-			Web Dev Performanc Testing Tools
-				* Lighthouse (built into Chrome DevTools)
-				* KeyCDN (haven't used, but heard OK)
-			Desktop - record some test scenario & use some tools (I'm pretty unfamiliar)
-		`
+		"tag": [
+			"Web Dev"
+		],
+		"descMarkdown": "\n\t\t\t\n\t\tPerformance Testing is different for desktops and web apps.\n\t\t\tFor web apps, you can test domain load speed, bundle size, and \n\t\t\t\t* load tests\n\t\t\t\t* stress tests\n\t\t\t\t* spike tests - rapidly increase workload\n\t\t\t\t* endurance tests (soak tests) - app performance over long time (find memory leaks)\n\t\t\t\t* scalability tests - gradually increase workload\n\t\t\t\t* Volume tests\n\t\t\tWeb Dev Performanc Testing Tools\n\t\t\t\t* Lighthouse (built into Chrome DevTools)\n\t\t\t\t* KeyCDN (haven't used, but heard OK)\n\t\t\tDesktop - record some test scenario & use some tools (I'm pretty unfamiliar)\n\t\t"
 	},
 	"Automated Tests": {
 		"name": "Automated Tests",
@@ -113,6 +139,12 @@ export default {
 	},
 	"Batch Scripts": {
 		"name": "Batch Scripts",
+		"docLink": "https://reactjs.org/",
+		"tag": [],
+		"descMarkdown": "DEFAULT DESC"
+	},
+	"Browser Storage": {
+		"name": "Browser Storage",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"descMarkdown": "DEFAULT DESC"
@@ -177,8 +209,20 @@ export default {
 		"tag": [],
 		"descMarkdown": "DEFAULT DESC"
 	},
+	"Cookies": {
+		"name": "Cookies",
+		"docLink": "https://reactjs.org/",
+		"tag": [],
+		"descMarkdown": "DEFAULT DESC"
+	},
 	"D3.js": {
 		"name": "D3.js",
+		"docLink": "https://reactjs.org/",
+		"tag": [],
+		"descMarkdown": "DEFAULT DESC"
+	},
+	"DOM Surgery": {
+		"name": "DOM Surgery",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"descMarkdown": "DEFAULT DESC"
@@ -270,7 +314,10 @@ export default {
 	"Gradle": {
 		"name": "Gradle",
 		"docLink": "https://gradle.org/",
-		"tag": ["Build Tools", "Java", ],
+		"tag": [
+			"Build Tools",
+			"Java"
+		],
 		"descMarkdown": "Far improved Java build tool as compared to Maven & Ant which both need long configuration files by definition. Gradle uses plugins and lets people use plugins like Jacoco with one command."
 	},
 	"Gulp": {
@@ -281,6 +328,12 @@ export default {
 	},
 	"HTML5": {
 		"name": "HTML5",
+		"docLink": "https://reactjs.org/",
+		"tag": [],
+		"descMarkdown": "DEFAULT DESC"
+	},
+	"JS Asynchrony": {
+		"name": "JS Asynchrony",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"descMarkdown": "DEFAULT DESC"
@@ -333,6 +386,12 @@ export default {
 		"tag": [],
 		"descMarkdown": "DEFAULT DESC"
 	},
+	"Local Storage": {
+		"name": "Local Storage",
+		"docLink": "https://reactjs.org/",
+		"tag": [],
+		"descMarkdown": "DEFAULT DESC"
+	},
 	"Material UI": {
 		"name": "Material UI",
 		"docLink": "https://reactjs.org/",
@@ -348,10 +407,16 @@ export default {
 	"Maven": {
 		"name": "Maven",
 		"docLink": "https://maven.apache.org/maven-features.html",
-		"tag": ["Build Tools", "Java"],
+		"tag": [
+			"Build Tools",
+			"Java"
+		],
 		"descMarkdown": "Uses POM (project object model) files to load dependencies from Maven Central (a repo). As a build tool, we use it to build our Java executables.",
 		"relatedLinks": [
-			{"text": "Gradle", "link": "https://gradle.org/"}
+			{
+				"text": "Gradle",
+				"link": "https://gradle.org/"
+			}
 		]
 	},
 	"Microsoft Teams": {
@@ -436,8 +501,7 @@ export default {
 		"name": "Programming Languages",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
-		"descMarkdown": `# Header 1 \n## Header 2\n* blah\n* blah
-		`
+		"descMarkdown": "# Header 1 \n## Header 2\n* blah\n* blah\n\t\t"
 	},
 	"Python": {
 		"name": "Python",
@@ -454,7 +518,10 @@ export default {
 	"React": {
 		"name": "React",
 		"docLink": "https://reactjs.org/",
-		"tag": ["Frontend", "JavaScript"],
+		"tag": [
+			"Frontend",
+			"JavaScript"
+		],
 		"descMarkdown": "JS Frontend library to build UI components with state lifecycles"
 	},
 	"React Bootstrap": {
@@ -537,6 +604,12 @@ export default {
 	},
 	"Semantic UI React": {
 		"name": "Semantic UI React",
+		"docLink": "https://reactjs.org/",
+		"tag": [],
+		"descMarkdown": "DEFAULT DESC"
+	},
+	"Session Storage": {
+		"name": "Session Storage",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"descMarkdown": "DEFAULT DESC"
