@@ -1,6 +1,8 @@
 // SCRIPT adds new SkillsTree keys into tsSkillsData
 // input:  skillsTreeData - js array, skillsTreeData - js obj
 // output: temp.json - up to date tsSkillsData object (old written + new keys)
+
+// note: remove key "undefined" that somehow appears
 const skillsData = {
 	"<audio>": {
 		"name": "<audio>",
