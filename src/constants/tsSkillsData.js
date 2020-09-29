@@ -103,7 +103,7 @@ export default {
 			"XML",
 			"Java"
 		],
-		"descMarkdown": "(Build.xml). (Legacy build tool - see Maven & Gradle). Apache Ant is a Java library and command-line tool whose mission is to drive processes described in build files as targets and extension points dependent upon each other. "
+		"descMarkdown": "# Legacy Build Tool.\n* Uses build.xml therefore very limiting\n* See newer tools which use plugins for out-of-the-box functionality: see Maven & Gradle\n. Apache Ant is a Java library and command-line tool whose mission is to drive processes described in build files as targets and extension points dependent upon each other. "
 	},
 	"App Performance Test": {
 		"name": "App Performance Test",
@@ -111,7 +111,7 @@ export default {
 		"tag": [
 			"Web Dev"
 		],
-		"descMarkdown": "\n\t\t\t\n\t\tPerformance Testing is different for desktops and web apps.\n\t\t\tFor web apps, you can test domain load speed, bundle size, and \n\t\t\t\t* load tests\n\t\t\t\t* stress tests\n\t\t\t\t* spike tests - rapidly increase workload\n\t\t\t\t* endurance tests (soak tests) - app performance over long time (find memory leaks)\n\t\t\t\t* scalability tests - gradually increase workload\n\t\t\t\t* Volume tests\n\t\t\tWeb Dev Performanc Testing Tools\n\t\t\t\t* Lighthouse (built into Chrome DevTools)\n\t\t\t\t* KeyCDN (haven't used, but heard OK)\n\t\t\tDesktop - record some test scenario & use some tools (I'm pretty unfamiliar)\n\t\t"
+		"descMarkdown": "## Desktops vs Web Apps\nFor frontend, you should \n* Reduce JS bundle size\n* Remove unused styling\n* Memoize functions to not reuse\n* Figure out caching strategy (in general)\n\nFor web apps, you should test:\n* load tests\n* stress tests\n* spike tests - rapidly increase workload\n* endurance tests (soak tests) - app performance over long time (find memory leaks)\n* scalability tests - gradually increase workload\n* Volume tests\n\nWeb Dev Performance Testing Tools\n* Lighthouse (built into Chrome DevTools)\n* KeyCDN (haven't used, but heard OK)\n\nDesktop - record some test scenario & use some tools (I'm pretty unfamiliar)\n"
 	},
 	"Automated Tests": {
 		"name": "Automated Tests",
@@ -534,6 +534,12 @@ export default {
 		"name": "React Hooks",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
+		"descMarkdown": "DEFAULT DESC"
+	},
+	"React Optimization": {
+		"name": "React Optimization",
+		"docLink": "https://reactjs.org/docs/optimizing-performance.html#profiling-components-with-the-chrome-performance-tab",
+		"tag": ["Frontend", "Performance Testing"],
 		"descMarkdown": "DEFAULT DESC"
 	},
 	"React Router": {
