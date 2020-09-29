@@ -9,7 +9,11 @@ import skillDisplayData from '../constants/displayData'
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    flexGrow: 1,
+    flexGrow: 1
+  },
+  gridContainer: {
+    overflow: "auto",
+    height: 800
   },
   paper: {
     padding: theme.spacing(2),
@@ -34,7 +38,7 @@ export default function SkillPage() {
   // Spacing 0 necessary to prevent horizontal scroll bar
   return (
     <div className={classes.root}>
-      <Grid container spacing={0}>
+      <Grid container spacing={0} className={classes.gridContainer}>
         <Grid item xs={5} sm={4} md={3} className={classes.paddingTop}>
           <SkillTree data={treeData} parentClickHandler={handleTreeClick} />
         </Grid>
