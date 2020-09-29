@@ -128,10 +128,8 @@ const StyledTreeItem = withStyles((theme) => ({
 }))((props) => <TreeItem {...props} TransitionComponent={TransitionComponent} />);
 
 const useStyles = makeStyles({
-  root: {
-    height: 264,
-    flexGrow: 1,
-    maxWidth: 400,
+  rootPaper: {
+    padding: '8px 16px',
   },
   panelHeading: {
     backgroundColor: "#ededed",
@@ -174,19 +172,21 @@ export default function RecursiveTreeView(props) {
 
   return (
     <Container>
-      <h2 className={classes.panelHeading}>Topics</h2>
-      <SearchTopicBar />
-      <ActionButtonBar />
-      <br />
-      <TreeView
-        className={classes.root}
-        defaultExpanded={["15"]}
-        defaultCollapseIcon={<MinusSquare />}
-        defaultExpandIcon={<PlusSquare />}
-        defaultEndIcon={<CloseSquare />}
-      >
-        {data.map((val, idx) => renderTree(val))}
-      </TreeView>
+      <Paper elevation={3} className={classes.rootPaper}>
+        <h2 className={classes.panelHeading}>Topics</h2>
+        <SearchTopicBar />
+        <ActionButtonBar />
+        <br /><br />
+        <TreeView
+          className={classes.root}
+          defaultExpanded={["15"]}
+          defaultCollapseIcon={<MinusSquare />}
+          defaultExpandIcon={<PlusSquare />}
+          defaultEndIcon={<CloseSquare />}
+        >
+          {data.map((val, idx) => renderTree(val))}
+        </TreeView>
+      </Paper>
     </Container>
   );
 }
