@@ -32,7 +32,7 @@ export default {
 			"HTML5",
 			"<figcaption>"
 		],
-		"descMarkdown": "Self-contained content (eg: image, illustration, diagram, code snippet)"
+		"descMarkdown": "# HTML5 element \n* Self-contained content (eg: image, illustration, diagram, code snippet)"
 	},
 	"Agile": {
 		"name": "Agile",
@@ -42,7 +42,7 @@ export default {
 			"SMART Goals",
 			"Collaboration"
 		],
-		"descMarkdown": "Agile is an iterative approach to project management and software development that helps teams deliver value to their customers faster and with fewer headaches. Instead of betting everything on a \"big bang\" launch, an agile team delivers work in small, but consumable, increments. Requirements, plans, and results are evaluated continuously so teams have a natural mechanism for responding to change quickly."
+		"descMarkdown": "## Project Management Methodology\n Agile is an iterative approach to project management and software development that helps teams deliver value to their customers faster and with fewer headaches.\nInstead of betting everything on a \"big bang\" launch, an agile team delivers work in small, but consumable, increments. Requirements, plans, and results are evaluated continuously so teams have a natural mechanism for responding to change quickly.\n\nIn comparison, waterfall method is to design everything beforehand & then develop. Agile is develop continuously and adapt to changing needs."
 	},
 	"Android": {
 		"name": "Android",
@@ -197,8 +197,8 @@ export default {
 		"tag": [],
 		"descMarkdown": "DEFAULT DESC"
 	},
-	"Code Collab": {
-		"name": "Code Collab",
+	"Collab Tools": {
+		"name": "Collab Tools",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"descMarkdown": "DEFAULT DESC"

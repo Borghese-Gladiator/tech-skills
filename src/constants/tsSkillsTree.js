@@ -18,10 +18,6 @@ export default [
 					{
 						"id": "8",
 						"name": "TypeScript"
-					},
-					{
-						"id": "9",
-						"name": "D3.js"
 					}
 				]
 			},
@@ -489,7 +485,7 @@ export default [
 	},
 	{
 		"id": "130",
-		"name": "Code Collab",
+		"name": "Collab Tools",
 		"children": [
 			{
 				"id": "132",
