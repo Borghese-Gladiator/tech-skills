@@ -51,7 +51,7 @@ export default {
 			"OS",
 			"Mobile"
 		],
-		"descMarkdown": "Android is a popular, Linux-based mobile phone operating system (maintained by Google)."
+		"descMarkdown": "# Mobile OS\nAndroid is a popular, Linux-based mobile phone operating system (maintained by Google).\n* Dev with Android studio\n* Future is to have one codebase for mobile & desktop with android/ios folders to adjust for those permission (eg: Flutter, Ionic)."
 	},
 	"Android Studio": {
 		"name": "Android Studio",
@@ -63,7 +63,7 @@ export default {
 			"Android Emulator",
 			"APK Analyzer"
 		],
-		"descMarkdown": "Official IDE for Android built atop of IntelliJ",
+		"descMarkdown": "## Official IDE for Android\n* Built atop of IntelliJ (similar interface)\n* Have cool features like Android Virtual Device (AVD Manager)\n* HELLA BULKY. TAKES 4EVER to get anything done.\n* AND, uses XML still for all the UI, so takes forever to write.",
 		"features": [
 			"Gradle-based build support",
 			"Android-specific refactoring and quick fixes",
