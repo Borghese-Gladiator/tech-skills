@@ -8,6 +8,8 @@
 // 3. copy temp.json contents into a formatter (eg: Notepad++ JSON Viewer)
 // 4. copy-paste formatted JSON obj back into constants JS file
 
+// note: remove key "undefined" that somehow appears
+
 const data = [
 	{
 		"id": 2,
