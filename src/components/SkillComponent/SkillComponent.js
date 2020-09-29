@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactMarkdown from 'react-markdown'
 import Card from '@material-ui/core/Card';
 import CardHeader from '@material-ui/core/CardHeader'
 import CardActions from '@material-ui/core/CardActions';
@@ -45,7 +46,7 @@ export default class SkillComponent extends React.Component {
   }
   render() {
     console.log(this.state)
-    const { name, tag, desc, docLink, features, relatedLinks } = this.state.skillObj
+    const { name, tag, descMarkdown, docLink, features, relatedLinks } = this.state.skillObj
     
     return (
       <Card className="root" variant="outlined">
@@ -65,9 +66,7 @@ export default class SkillComponent extends React.Component {
             })}
           </div>
           <br />
-          <Typography variant="body2" component="p">
-            {desc}
-          </Typography>
+          <ReactMarkdown source={descMarkdown} />
           <Typography>
             {
               // if undefined, will not map anything

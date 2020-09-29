@@ -540,7 +540,7 @@ function genSkillName(obj) {
         name: obj["name"],
         docLink: "https://reactjs.org/",
         tag: [],
-        desc: "DEFAULT DESC",
+        descMarkdown: "DEFAULT DESC",
       }
     }
     Object.keys(obj).forEach(key => {
