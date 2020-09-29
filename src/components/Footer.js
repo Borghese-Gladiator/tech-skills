@@ -6,6 +6,11 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 
 const useStyles = makeStyles((theme) => ({
+  flexCenter: {
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center'
+  }
 }))
 
 function Footer() {
@@ -13,7 +18,7 @@ function Footer() {
   
   return (
     <footer id="footer">
-      <div className={classes.paddingTop}>
+      <div className={classes.flexCenter}>
         <List style={{display:"flex", flexAlign: "row"}}>
           {[
             { text: 'tim.shee0791@gmail.com', link: '"mailto:tim.shee0791@gmail.com', avatarColorClass: classes.green, iconFunc: () => { return <MailIcon style={{fill: "black"}} /> } },
