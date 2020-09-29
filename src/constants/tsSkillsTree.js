@@ -253,7 +253,7 @@ export default [
 	},
 	{
 		"id": "65",
-		"name": "Automated Tests",
+		"name": "Testing (QE)",
 		"children": [
 			{
 				"id": "67",

@@ -113,7 +113,7 @@ export default {
 		],
 		"descMarkdown": "## Desktops vs Web Apps\nFor frontend, you should \n* Reduce JS bundle size\n* Remove unused styling\n* Memoize functions to not reuse\n* Figure out caching strategy (in general)\n\nFor web apps, you should test:\n* load tests\n* stress tests\n* spike tests - rapidly increase workload\n* endurance tests (soak tests) - app performance over long time (find memory leaks)\n* scalability tests - gradually increase workload\n* Volume tests\n\nWeb Dev Performance Testing Tools\n* Lighthouse (built into Chrome DevTools)\n* KeyCDN (haven't used, but heard OK)\n\nDesktop - record some test scenario & use some tools (I'm pretty unfamiliar)\n"
 	},
-	"Automated Tests": {
+	"Testing (QE)": {
 		"name": "Automated Tests",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
