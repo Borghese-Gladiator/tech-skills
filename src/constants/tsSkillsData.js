@@ -84,7 +84,7 @@ export default {
 			"TypeScript",
 			"HTML Template Syntax"
 		],
-		"descMarkdown": "Frontend JS Framework to build Mobile & Desktop applications. As a framework, starting an app creates an extensive directory structure"
+		"descMarkdown": "# JS Framework\n* Build mobile & desktop UI at same time.\n* Built-in Testing apparently (have not tried it)\n* As a framework, starting an app creates an extensive directory structure"
 	},
 	"Animation Libraries": {
 		"name": "Animation Libraries",
