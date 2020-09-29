@@ -425,7 +425,7 @@ export default [
 	},
 	{
 		"id": "113",
-		"name": "OS",
+		"name": "Operating Systems",
 		"children": [
 			{
 				"id": "115",

@@ -479,8 +479,8 @@ export default {
 		"tag": [],
 		"descMarkdown": "DEFAULT DESC"
 	},
-	"OS": {
-		"name": "OS",
+	"Operating Systems": {
+		"name": "Operating Systems",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"descMarkdown": "DEFAULT DESC"
