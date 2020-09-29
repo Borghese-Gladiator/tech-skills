@@ -11,11 +11,8 @@ import { useSpring, animated } from 'react-spring/web.cjs'; // web.cjs is requir
 // SearchTopicBar
 import Paper from '@material-ui/core/Paper';
 import InputBase from '@material-ui/core/InputBase';
-import Divider from '@material-ui/core/Divider';
 import IconButton from '@material-ui/core/IconButton';
-import MenuIcon from '@material-ui/icons/Menu';
 import SearchIcon from '@material-ui/icons/Search';
-import DirectionsIcon from '@material-ui/icons/Directions';
 
 // ActionButtonBar
 import Button from '@material-ui/core/Button';
@@ -43,13 +40,19 @@ const useSearchStyles = makeStyles((theme) => ({
 function SearchTopicBar(props) {
   const classes = useSearchStyles()
   const { searchAndOpen } = props
-
+  
+  const onChange = (event) => {
+    const searchLabel = event.target.value
+    console.log(event.target.value)
+    searchAndOpen(searchLabel)
+  };
   return (
     <Paper component="form" className={classes.root}>
       <InputBase
         className={classes.input}
         placeholder="Search Topics"
         inputProps={{ 'aria-label': 'search topics' }}
+        onChange={onChange}
       />
       <IconButton className={classes.iconButton} aria-label="search" onClick={() => { console.log('onClick'); }}>
         <SearchIcon />
@@ -170,11 +173,15 @@ export default function RecursiveTreeView(props) {
     </StyledTreeItem>
   );
 
+  function searchAndOpen(text) {
+    console.log("SEARCH and open: " + text)
+  }
+
   return (
     <Container>
       <Paper elevation={3} className={classes.rootPaper}>
         <h2 className={classes.panelHeading}>Topics</h2>
-        <SearchTopicBar />
+        <SearchTopicBar searchAndOpen={searchAndOpen} />
         <ActionButtonBar />
         <br /><br />
         <TreeView
