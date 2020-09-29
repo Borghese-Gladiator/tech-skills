@@ -1,3 +1,14 @@
+# tech-skills
+
+## Setting Up
+- ```git clone``` this repo
+- ```npm install``` in tech-skills directory
+- ```npm start```
+
+### Author
+Borghese-Gladiator
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
