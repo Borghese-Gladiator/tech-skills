@@ -93,7 +93,7 @@ export default {
 			"Frontend",
 			"React"
 		],
-		"descMarkdown": "Frontend animation libraries enable easier animations instead of just using CSS3 custom animations to fade, hover, or other. "
+		"descMarkdown": "# JS Libraries\nIn general, animation libraries are done with JS. CSS3 comes with built-in animation and can be more cross-platform.\n* Advantage of animation library is finer control due to using scripts\n* More work to cover edge cases and ensure performance.\n* Also negative is learning curve.\n* Frontend animation libraries enable easier animations instead of just using CSS3 custom animations to fade, hover, or other.\n* There are React animation libraries like (framer-motion || Poser)"
 	},
 	"Ant": {
 		"name": "Ant",
