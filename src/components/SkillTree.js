@@ -168,7 +168,7 @@ export default function RecursiveTreeView(props) {
 
   const renderTree = (nodes) => (
     // Material UI:  onLabelClick={handleClick} does not allow customization
-    <StyledTreeItem key={nodes.id} nodeId={nodes.id} label={renderLabel(nodes)}>
+    <StyledTreeItem key={nodes.id} nodeId={nodes.id} label={renderLabel(nodes)} style={{textAlign:"left"}}>
       {Array.isArray(nodes.children) ? nodes.children.map((node) => renderTree(node)) : null}
     </StyledTreeItem>
   );
@@ -185,7 +185,6 @@ export default function RecursiveTreeView(props) {
         <ActionButtonBar />
         <br /><br />
         <TreeView
-          className={classes.root}
           defaultExpanded={["15"]}
           defaultCollapseIcon={<MinusSquare />}
           defaultExpandIcon={<PlusSquare />}
