@@ -114,28 +114,28 @@ export default {
 		"descMarkdown": "## Desktops vs Web Apps\nFor frontend, you should \n* Reduce JS bundle size\n* Remove unused styling\n* Memoize functions to not reuse\n* Figure out caching strategy (in general)\n\nFor web apps, you should test:\n* load tests\n* stress tests\n* spike tests - rapidly increase workload\n* endurance tests (soak tests) - app performance over long time (find memory leaks)\n* scalability tests - gradually increase workload\n* Volume tests\n\nWeb Dev Performance Testing Tools\n* Lighthouse (built into Chrome DevTools)\n* KeyCDN (haven't used, but heard OK)\n\nDesktop - record some test scenario & use some tools (I'm pretty unfamiliar)\n"
 	},
 	"Testing (QE)": {
-		"name": "Automated Tests",
-		"docLink": "https://reactjs.org/",
-		"tag": [],
-		"descMarkdown": "DEFAULT DESC"
+		"name": "Testing (QE)",
+		"docLink": "https://en.wikipedia.org/wiki/Software_testing",
+		"tag": ["Unit Tests", "Integration Tests", "Staging", "DevOps"],
+		"descMarkdown": "Tests are imperative to create quality products. Once tests are made, **DevOps (CI/CD)** can be built & QE can be automated. \n* Write unit tests for code functionality (DEV) \n* Write integration tests to run on the production build (STAGING)\n* Use plugins like Jacoco to get reports about integration testing results\n* Automate frontend tests with Selenium WebDriver\n* Performance tests prepare for different user activity scenarios"
 	},
 	"Babel": {
 		"name": "Babel",
-		"docLink": "https://reactjs.org/",
+		"docLink": "https://babeljs.io/",
 		"tag": [],
-		"descMarkdown": "DEFAULT DESC"
+		"descMarkdown": "# JS Transpiler\nConverts ECMAScript 2015+ code into a backwards compatible version of JavaScript in current and older browsers or environments.\n* Pretty easy to add to a project. When you create a production build, you'll have a dist folder with optimized code for older browsers that you can use.\n P.S. Transpiler converts source code to equivalent source code (eg: Java to Kotlin)"
 	},
 	"Backlog": {
 		"name": "Backlog",
-		"docLink": "https://reactjs.org/",
-		"tag": [],
-		"descMarkdown": "DEFAULT DESC"
+		"docLink": "https://www.atlassian.com/agile/scrum/backlogs",
+		"tag": ["Agile", "Sprint"],
+		"descMarkdown": "## List of Tasks\nBacklog contains tasks that could be done, but are not REQUIRED.\n* Backlog: Possible user stories\n* To Do: Required stories\n* In Progress: being done (add WIP limit on stories here)\n* Completed: user story implemented\n\nVariations are more complicated to reflect Dev completion and then QE start, but ideally QE is automated with DevOps\nOfficial Doc link goes to Atlassian's Agile Coach page & describes product backlog in detail."
 	},
 	"Bash": {
 		"name": "Bash",
-		"docLink": "https://reactjs.org/",
-		"tag": [],
-		"descMarkdown": "DEFAULT DESC"
+		"docLink": "https://www.gnu.org/software/bash/",
+		"tag": ["GNU/Linux"],
+		"descMarkdown": "# Bourne Again SHell\nThe Bash shell is present in all the GNU/Linux distros. Use it to automate scripts & directory structure stuff."
 	},
 	"Batch Scripts": {
 		"name": "Batch Scripts",
@@ -380,8 +380,8 @@ export default {
 		"tag": [],
 		"descMarkdown": "DEFAULT DESC"
 	},
-	"Linux": {
-		"name": "Linux",
+	"GNU/Linux": {
+		"name": "GNU/Linux",
 		"docLink": "https://reactjs.org/",
 		"tag": [],
 		"descMarkdown": "DEFAULT DESC"

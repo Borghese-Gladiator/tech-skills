@@ -443,7 +443,7 @@ export default [
 			},
 			{
 				"id": "119",
-				"name": "Linux",
+				"name": "GNU/Linux",
 				"children": [
 					{
 						"id": "121",
