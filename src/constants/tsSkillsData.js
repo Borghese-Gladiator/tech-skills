@@ -782,11 +782,6 @@ export default {
 		"tag": [],
 		"descMarkdown": "DEFAULT DESC"
 	},
-	"undefined": {
-		"docLink": "https://reactjs.org/",
-		"tag": [],
-		"descMarkdown": "DEFAULT DESC"
-	},
 	"unittest": {
 		"name": "unittest",
 		"docLink": "https://reactjs.org/",
