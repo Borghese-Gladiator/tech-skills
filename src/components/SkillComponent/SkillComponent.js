@@ -73,11 +73,15 @@ export default class SkillComponent extends React.Component {
             {
               // if undefined, will not map anything
               features ?
-              <ul>
-                {features.map((val, idx) => {
-                  return <li>{val}</li>
-                })}
-              </ul> : <></>
+              <div>
+                <h3>Features</h3>
+                <ul>
+                  {features.map((val, idx) => {
+                    return <li>{val}</li>
+                  })}
+                </ul>
+              </div>
+               : <></>
             }
           </Typography>
         </CardContent>
