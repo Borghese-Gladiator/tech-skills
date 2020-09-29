@@ -14,7 +14,7 @@ export default {
 			"WAV",
 			"AIFF"
 		],
-		"descMarkdown": "# HTML5 element \n* Used to embed a sound element in the page.\n* Can use the <source> element and WebRTC to redirect audio."
+		"descMarkdown": "# HTML5 element \n* Used to embed a sound element in the page.\n* Loads sound from file specified by <source> element\n* Use WebRTC to redirect audio to various media devices."
 	},
 	"<figcaption>": {
 		"name": "<figcaption>",
@@ -23,7 +23,7 @@ export default {
 			"HTML5",
 			"<figure>"
 		],
-		"descMarkdown": "Caption for a <figure> element"
+		"descMarkdown": "# HTML5 element \n* Caption for a <figure> element"
 	},
 	"<figure>": {
 		"name": "<figure>",
