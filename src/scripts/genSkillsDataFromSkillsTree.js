@@ -1,3 +1,13 @@
+// Use this script to create a SkillsData object from the SkillsTree array. Generates empty structure with keys for you to fill in markdown descriptions in your own time.
+// input:  data
+// output: temp.json
+
+// STEPS TO USE:
+// 1. copy-paste array from tsSkillsTree.js 
+// 2. run script with node
+// 3. copy temp.json contents into a formatter (eg: Notepad++ JSON Viewer)
+// 4. copy-paste formatted JSON obj back into constants JS file
+
 const data = [
 	{
 		"id": 2,
