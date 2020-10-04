@@ -147,25 +147,25 @@ export default {
 		"name": "Browser Storage",
 		"docLink": "https://medium.com/@krishankantsinghal/local-storage-vs-session-storage-vs-cookie-22655ff75a8",
 		"tag": ["Frontend", "Web Dev"],
-		"descMarkdown": "Previously, browsers could only store cookies.\n After HTML5, localStorage stores key/value pairs in the browser w/o expiring. However, it has a small limit and not secure\n Session Storage stores data per session until browser (or tab) is closed. Therefore, multiple tabs has multiple session storage instances.\nCookies store data to be sent to server in subsequent XHR requests (primarily for server-side rendering)"
+		"descMarkdown": "# Modern Browser Storage\nPreviously, browsers could only store cookies.\n After HTML5, localStorage stores key/value pairs in the browser w/o expiring. However, it has a small limit and not secure\n Session Storage stores data per session until browser (or tab) is closed. Therefore, multiple tabs has multiple session storage instances.\nCookies store data to be sent to server in subsequent XHR requests (primarily for server-side rendering)"
 	},
 	"Build Tools": {
 		"name": "Build Tools",
 		"docLink": "https://en.wikipedia.org/wiki/List_of_build_automation_software",
 		"tag": ["Dev", "Staging", "Production"],
-		"descMarkdown": "Build tools automate creating executables. Use tools to test create **production** builds of product.\n* Android = apk\n* Windows installer = exe, msi\nJava executables = war, jar"
+		"descMarkdown": "# Build tools\n### Automates creating executables for production\n Use tools like Webpack, Gulp, Gradle, Maven, Ant, to test create **production** builds of product.\n* Android = apk\n* Windows installer = exe, msi\n* Java executables = war, jar"
 	},
 	"C": {
 		"name": "C",
 		"docLink": "https://reactjs.org/",
-		"tag": [],
-		"descMarkdown": "DEFAULT DESC"
+		"tag": ["Procedural", "OS class (UMass CS230)"],
+		"descMarkdown": "# Language\nBoth high-level (application software) & low-level programming: scripting for drivers & kernels.\nFundamental basis for building other languages: C++, Java, JS, Go, Rust, PHP, Python, Perl.\n## Advantages\n* fewer libraries - code from scratch\n* fast execution time (less processing overhead - garbage colleciton || preventing memory leaks)\n* embedded programming\n\n### Disadvantages\n* Literally same as its advantages. Writing stuff from scratch is a way pain & why reinvent the wheel.\n* There's a reason people made high-level programming langauges\n* PS: Professor thinks this is a high-level programming language and was on the test......>.>. When you can write drivers & kernels with this, I would beg to differ, but what do I know."
 	},
 	"C#": {
 		"name": "C#",
 		"docLink": "https://reactjs.org/",
-		"tag": [],
-		"descMarkdown": "DEFAULT DESC"
+		"tag": ["Microsoft", "Unity game engine"],
+		"descMarkdown": "# Language\nIt's basically Microsoft Java\n* requires .NET framework to run\n* hybrid between C and C++ to create a modernized language\n### Advantages\n* Good for making Windows desktop applications and games\n* supports operator overloading for multiple operators (figure out what that means later...)\n* Maintained by Microsoft"
 	},
 	"C++": {
 		"name": "C++",
