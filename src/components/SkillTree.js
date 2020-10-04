@@ -1,10 +1,13 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import SvgIcon from '@material-ui/core/SvgIcon';
+import React, { useEffect, useState } from 'react'
 import { fade, makeStyles, withStyles } from '@material-ui/core/styles';
+import PropTypes from 'prop-types';
+// SkillTree
 import Container from '@material-ui/core/Container'
 import TreeView from '@material-ui/lab/TreeView';
 import TreeItem from '@material-ui/lab/TreeItem';
+// Custom Icons
+import SvgIcon from '@material-ui/core/SvgIcon';
+// TransitionComponent
 import Collapse from '@material-ui/core/Collapse';
 import { useSpring, animated } from 'react-spring/web.cjs'; // web.cjs is required for IE 11 support
 
@@ -40,7 +43,7 @@ const useSearchStyles = makeStyles((theme) => ({
 function SearchTopicBar(props) {
   const classes = useSearchStyles()
   const { searchAndOpen } = props
-  
+
   const onChange = (event) => {
     const searchLabel = event.target.value
     console.log(event.target.value)
@@ -61,11 +64,24 @@ function SearchTopicBar(props) {
   )
 }
 
-function ActionButtonBar() {
+function ActionButtonBar(props) {
+  const { data, setExpanded } = props
+  
+  const collapseAll = () => {
+    setExpanded([])
+  }
+  const uncollapseAll = () => {
+    const expandList = []
+    data.forEach((val, idx) => {
+      expandList.push(val.id) // push top layer node IDs
+      // expandList.push(...convertTreeToList(val))
+    })
+    setExpanded(expandList)
+  }
   return (
-    <ButtonGroup size="small" variant="text" color="primary" aria-label="small outlined button group" style={{padding: "3px"}}>
-      <Button>Collapse</Button>
-      <Button>Uncollapse</Button>
+    <ButtonGroup size="small" variant="text" color="primary" aria-label="small outlined button group" style={{ padding: "3px" }}>
+      <Button onClick={uncollapseAll}>Uncollapse</Button>
+      <Button onClick={collapseAll}>Collapse All</Button>
     </ButtonGroup>
   )
 }
@@ -146,29 +162,24 @@ const useStyles = makeStyles({
     marginBottom: 0
   }
 })
-
-export default function RecursiveTreeView(props) {
+export default function SkillTree(props) {
   const classes = useStyles();
-  const { data, parentClickHandler } = props
+  const { data, labelParentClickHandler } = props
+  const [expanded, setExpanded] = useState([]);
+  const [selected, setSelected] = useState([]);
+  useEffect(() => console.log(expanded), [expanded]);
 
-  const renderLabel = node => (
-    <span
-      onClick={event => {
-        console.log(node.id);
-        // setActiveItemId(node.id);
-        // if you want after click do expand/collapse comment this two line
-        event.stopPropagation();
-        event.preventDefault();
-        parentClickHandler(node.name)
-      }}
-    >
-      {node.name}
-    </span>
-  );
+  const handleToggle = (event, nodeIds) => {
+    setExpanded(nodeIds);
+  };
+
+  const handleSelect = (event, nodeIds) => {
+    setSelected(nodeIds);
+  };
 
   const renderTree = (nodes) => (
     // Material UI:  onLabelClick={handleClick} does not allow customization
-    <StyledTreeItem key={nodes.id} nodeId={nodes.id} label={renderLabel(nodes)} style={{textAlign:"left"}}>
+    <StyledTreeItem key={nodes.id} nodeId={nodes.id} label={nodes.name} onLabelClick={() => labelParentClickHandler(nodes.name)}>
       {Array.isArray(nodes.children) ? nodes.children.map((node) => renderTree(node)) : null}
     </StyledTreeItem>
   );
@@ -182,13 +193,16 @@ export default function RecursiveTreeView(props) {
       <Paper elevation={3} className={classes.rootPaper}>
         <h2 className={classes.panelHeading}>Topics</h2>
         <SearchTopicBar searchAndOpen={searchAndOpen} />
-        <ActionButtonBar />
-        <br /><br />
+        <ActionButtonBar data={data} setExpanded={(val) => setExpanded(val)} />
         <TreeView
-          defaultExpanded={["15"]}
+          className={classes.root}
           defaultCollapseIcon={<MinusSquare />}
           defaultExpandIcon={<PlusSquare />}
           defaultEndIcon={<CloseSquare />}
+          expanded={expanded}
+          selected={selected}
+          onNodeToggle={handleToggle}
+          onNodeSelect={handleSelect}
         >
           {data.map((val, idx) => renderTree(val))}
         </TreeView>
@@ -196,3 +210,44 @@ export default function RecursiveTreeView(props) {
     </Container>
   );
 }
+/*
+COLLAPSE ALL (Material UI does not allow all to get uncollapsed at once I think - 1 level at a time)
+    *
+    *  https://danmartensen.svbtle.com/converting-a-tree-to-a-list-in-javascript 
+    *  Pre-order tree traversal visits each node using stack. 
+    *  Checks if leaf node based on children === null otherwise 
+    *  pushes all children into stack and continues traversal. 
+    *  hashMap object literal used for deduping.
+    *  @param root - deserialized JSON root to begin traversal
+    *  @returns array  - final array of nodes in order with no dups
+    *
+   function convertTreeToList(root) {
+    *
+    *  For each node visit if node not a hashMap key, insert 
+    *  into array.  Then append node into end of the array.
+    *  @params node - object to check
+    *  @param hashMap - object literal used for deduping
+    *  @param array - final array that nodes are inserted
+    *
+    function visitNode(node, hashMap, array) {
+      if (!hashMap[node.id]) {
+        hashMap[node.id] = true;
+        array.push(node.id);
+      }
+    }
+    let stack = [], array = [], hashMap = {};
+    stack.push(root);
+    while (stack.length !== 0) {
+      const node = stack.pop();
+      // check for 'children' key
+      if (!('children' in node) || node.children === null) {
+        visitNode(node, hashMap, array);
+      } else {
+        for (let i = node.children.length - 1; i >= 0; i--) {
+          stack.push(node.children[i]);
+        }
+      }
+    }
+    return array;
+  }
+*/
