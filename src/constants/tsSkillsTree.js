@@ -66,45 +66,9 @@ export default [
 				]
 			},
 			{
-				"id": "17",
-				"name": "Vanilla JS",
-				"children": [
-					{
-						"id": "170",
-						"name": "DOM Surgery",
-					},
-					{
-						"id": "171",
-						"name": "JS Asynchrony",
-					}
-				]
-			},
-			{
-				"id": "172",
-				"name": "Browser Storage",
-				"children": [
-					{
-						"id": "173",
-						"name": "Session Storage",
-					},
-					{
-						"id": "174",
-						"name": "Local Storage",
-					},
-					{
-						"id": "175",
-						"name": "Cookies",
-					},
-				]
-			},
-			{
 				"id": "24",
-				"name": "Styling",
+				"name": "CSS3",
 				"children": [
-					{
-						"id": "26",
-						"name": "CSS3"
-					},
 					{
 						"id": "27",
 						"name": "Flexbox"
@@ -155,6 +119,38 @@ export default [
 						"id": "39",
 						"name": "Material-UI Theme Spacing"
 					}
+				]
+			},
+			{
+				"id": "17",
+				"name": "Vanilla JS",
+				"children": [
+					{
+						"id": "170",
+						"name": "DOM Surgery",
+					},
+					{
+						"id": "171",
+						"name": "JS Asynchrony",
+					}
+				]
+			},
+			{
+				"id": "172",
+				"name": "Browser Storage",
+				"children": [
+					{
+						"id": "173",
+						"name": "Session Storage",
+					},
+					{
+						"id": "174",
+						"name": "Local Storage",
+					},
+					{
+						"id": "175",
+						"name": "Cookies",
+					},
 				]
 			},
 			{
