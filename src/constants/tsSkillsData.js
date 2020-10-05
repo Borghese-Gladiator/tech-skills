@@ -183,7 +183,7 @@ export default {
 		"name": "CSS3",
 		"docLink": "https://developer.mozilla.org/en-US/docs/Web/CSS",
 		"tag": ["Frontend"],
-		"descMarkdown": "# Cascading Style Sheets\nControls layout of multiple web pages. Now useful for responsive web design\n* HTML contains content of web page\n* CSS contains features like custom properties, feature queries, media queries, variable fonts, graphical effects, \n\n### Features\n* Custom properties:`:root {  -​-primaryColor: #f45942;  }`\n* Feature queries: `@supports (display: grid) { .my-component { display: flex; } }`\nMedia queries (see see child in tree)\n* Variable fonts: load single font file for an entire font family\n* Graphical Effects(eg: linear-gradient)\n\t"
+		"descMarkdown": "# Cascading Style Sheets\nControls layout of multiple web pages. Now useful for responsive web design\n* HTML contains content of web page\n* CSS contains features like **custom properties, feature queries, media queries, variable fonts, graphical effects, CSS Grid and Layouts** \n\n### Features\n* Custom properties:`:root {  -​-primaryColor: #f45942;  }`\n* Feature queries: `@supports (display: grid) { .my-component { display: flex; } }`\n* Media queries (see child page on left Skill Tree)\n* Variable fonts: load single font file for an entire font family\n* Graphical Effects\n  * background-blend-mode\n  * mix-blend-mode\n  * CSS Filters\n  * Convert to grayscale\n  * SVG Filters\n  * Clipping and Masking (create non-rectangles by hiding parts of an image)\n  * linear-gradient (along same lines, but useful function to leave here)\n* CSS Grid and Layouts: [w3schools grid columns](https://www.w3schools.com/cssref/pr_grid-template-columns.asp)\n\n"
 	},
 	"CentOS": {
 		"name": "CentOS",
