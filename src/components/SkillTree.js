@@ -192,7 +192,6 @@ export default function SkillTree(props) {
     <Container>
       <Paper elevation={3} className={classes.rootPaper}>
         <h2 className={classes.panelHeading}>Topics</h2>
-        <SearchTopicBar searchAndOpen={searchAndOpen} />
         <ActionButtonBar data={data} setExpanded={(val) => setExpanded(val)} />
         <TreeView
           className={classes.root}
