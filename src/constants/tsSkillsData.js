@@ -176,20 +176,20 @@ export default {
 	"CSS Media Queries": {
 		"name": "CSS Media Queries",
 		"docLink": "https://www.w3schools.com/cssref/css3_pr_mediaquery.asp",
-		"tag": ["Frontend",  "CSS", "Responsive Web Design",],
+		"tag": ["Frontend",  "CSS3", "Responsive Web Design",],
 		"descMarkdown": "#### Tailor style sheet to desktops, laptops, tablets, and mobile phones.\nUsage: `@media only screen and (max-width: 600px)`"
 	},
 	"CSS3": {
 		"name": "CSS3",
 		"docLink": "https://developer.mozilla.org/en-US/docs/Web/CSS",
-		"tag": [],
-		"descMarkdown": "DEFAULT DESC"
+		"tag": ["Frontend"],
+		"descMarkdown": "# Cascading Style Sheets\nControls layout of multiple web pages. Now useful for responsive web design\n* HTML contains content of web page\n* CSS contains features like custom properties, feature queries, media queries, variable fonts, graphical effects, \n\n### Features\n* Custom properties:`:root {  -​-primaryColor: #f45942;  }`\n* Feature queries: `@supports (display: grid) { .my-component { display: flex; } }`\nMedia queries (see see child in tree)\n* Variable fonts: load single font file for an entire font family\n* Graphical Effects(eg: linear-gradient)\n\t"
 	},
 	"CentOS": {
 		"name": "CentOS",
 		"docLink": "https://docs.centos.org/en-US/docs/",
-		"tag": [],
-		"descMarkdown": "DEFAULT DESC"
+		"tag": ["GNU/Linux", "Servers"],
+		"descMarkdown": "# GNU/Linux Distro\n"
 	},
 	"Chai": {
 		"name": "Chai",
