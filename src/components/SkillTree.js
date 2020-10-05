@@ -184,10 +184,6 @@ export default function SkillTree(props) {
     </StyledTreeItem>
   );
 
-  function searchAndOpen(text) {
-    console.log("SEARCH and open: " + text)
-  }
-
   return (
     <Container>
       <Paper elevation={3} className={classes.rootPaper}>
