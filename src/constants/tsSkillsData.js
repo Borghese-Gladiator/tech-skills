@@ -157,37 +157,37 @@ export default {
 	},
 	"C": {
 		"name": "C",
-		"docLink": "https://reactjs.org/",
+		"docLink": "https://www.geeksforgeeks.org/c-language-set-1-introduction/",
 		"tag": ["Procedural", "OS class (UMass CS230)"],
 		"descMarkdown": "# Language\nBoth high-level (application software) & low-level programming: scripting for drivers & kernels.\nFundamental basis for building other languages: C++, Java, JS, Go, Rust, PHP, Python, Perl.\n## Advantages\n* fewer libraries - code from scratch\n* fast execution time (less processing overhead - garbage colleciton || preventing memory leaks)\n* embedded programming\n\n### Disadvantages\n* Literally same as its advantages. Writing stuff from scratch is a way pain & why reinvent the wheel.\n* There's a reason people made high-level programming langauges\n* PS: Professor thinks this is a high-level programming language and was on the test......>.>. When you can write drivers & kernels with this, I would beg to differ, but what do I know."
 	},
 	"C#": {
 		"name": "C#",
-		"docLink": "https://reactjs.org/",
+		"docLink": "https://docs.microsoft.com/en-us/dotnet/csharp/",
 		"tag": ["Microsoft", "Unity game engine"],
 		"descMarkdown": "# Language\nIt's basically Microsoft Java\n* requires .NET framework to run\n* hybrid between C and C++ to create a modernized language\n### Advantages\n* Good for making Windows desktop applications and games\n* supports operator overloading for multiple operators (figure out what that means later...)\n* Maintained by Microsoft"
 	},
 	"C++": {
 		"name": "C++",
-		"docLink": "https://reactjs.org/",
-		"tag": [],
-		"descMarkdown": "DEFAULT DESC"
+		"docLink": "https://docs.microsoft.com/en-us/cpp/?view=vs-2019",
+		"tag": ["C", "Object-oriented"],
+		"descMarkdown": "# Language\nC with Classes\nModern C now supports object-oriented, generic, and functional features in addition to facilities for low-level memory manipulation.\n\n* I haven't really used - don't know a lot"
 	},
 	"CSS Media Queries": {
 		"name": "CSS Media Queries",
-		"docLink": "https://reactjs.org/",
-		"tag": [],
-		"descMarkdown": "DEFAULT DESC"
+		"docLink": "https://www.w3schools.com/cssref/css3_pr_mediaquery.asp",
+		"tag": ["Frontend",  "CSS", "Responsive Web Design",],
+		"descMarkdown": "#### Tailor style sheet to desktops, laptops, tablets, and mobile phones.\nUsage: `@media only screen and (max-width: 600px)`"
 	},
 	"CSS3": {
 		"name": "CSS3",
-		"docLink": "https://reactjs.org/",
+		"docLink": "https://developer.mozilla.org/en-US/docs/Web/CSS",
 		"tag": [],
 		"descMarkdown": "DEFAULT DESC"
 	},
 	"CentOS": {
 		"name": "CentOS",
-		"docLink": "https://reactjs.org/",
+		"docLink": "https://docs.centos.org/en-US/docs/",
 		"tag": [],
 		"descMarkdown": "DEFAULT DESC"
 	},
