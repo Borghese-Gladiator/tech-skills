@@ -189,7 +189,7 @@ export default {
 		"name": "CentOS",
 		"docLink": "https://docs.centos.org/en-US/docs/",
 		"tag": ["GNU/Linux", "Servers"],
-		"descMarkdown": "# GNU/Linux Distro\n"
+		"descMarkdown": "# GNU/Linux Distro\n Derived from Red Hat Enterprise\n Used CentOS 7 at RSA & CentOS 8 with VirtualBox\n Most often used as a server OS."
 	},
 	"Chai": {
 		"name": "Chai",
