@@ -194,8 +194,8 @@ export default {
 	"Chai": {
 		"name": "Chai",
 		"docLink": "https://reactjs.org/",
-		"tag": [],
-		"descMarkdown": "DEFAULT DESC"
+		"tag": ["JavaScript", "Testing"],
+		"descMarkdown": "Assertion Library\n Most often used with Mocha to create unit tests for JS code. Since Chai is just an assertion library, it needs a test framework."
 	},
 	"Collab Tools": {
 		"name": "Collab Tools",
