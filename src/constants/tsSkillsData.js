@@ -192,7 +192,7 @@ export default {
 		"descMarkdown": "# GNU/Linux Distro\n Derived from Red Hat Enterprise\n Used CentOS 7 at RSA & CentOS 8 with VirtualBox\n Most often used as a server OS."
 	},
 	"Chai": {
-		"name": "Chai",
+		"name": "Chai", 
 		"docLink": "https://reactjs.org/",
 		"tag": ["JavaScript", "Testing"],
 		"descMarkdown": "Assertion Library\n Most often used with Mocha to create unit tests for JS code. Since Chai is just an assertion library, it needs a test framework."
@@ -200,8 +200,8 @@ export default {
 	"Collab Tools": {
 		"name": "Collab Tools",
 		"docLink": "https://reactjs.org/",
-		"tag": [],
-		"descMarkdown": "DEFAULT DESC"
+		"tag": ["Agile", "Kanban board", "Sprint"],
+		"descMarkdown": "## General Project Management tools\n* Monday\n* Jira\n* Trello\n"
 	},
 	"Component Libraries": {
 		"name": "Component Libraries",
