@@ -7,6 +7,7 @@ import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import IconButton from '@material-ui/core/IconButton'
 import Typography from '@material-ui/core/Typography';
+import Divider from '@material-ui/core/Divider';
 import Link from '@material-ui/core/Link';
 import ListItem from '@material-ui/core/ListItem'
 import ListItemAvatar from '@material-ui/core/ListItemAvatar'
@@ -48,6 +49,22 @@ export default class SkillComponent extends React.Component {
   render() {
     const { name, tag, descMarkdown, docLink, features, relatedLinks } = this.state.skillObj
     
+    // Generate list items with dividers
+    const listItems = tag.map((val, idx) => {
+      return (
+        <Typography color="textSecondary" className="row-flex-item">
+          {val}
+        </Typography>
+      )
+    })
+    const listItemsWithDividers = [];
+    listItems.forEach((item, index) => {
+      listItemsWithDividers.push(item)
+      if (listItems[index + 1] !== undefined) {
+        listItemsWithDividers.push(<Divider orientation="vertical" flexItem />)
+      }
+    })
+
     return (
       <Card className="root" variant="outlined">
         <CardHeader
@@ -57,13 +74,7 @@ export default class SkillComponent extends React.Component {
         />
         <CardContent>
           <Paper className="flex-row">
-            {tag.map((val, idx) => {
-              return (
-                <Typography color="textSecondary" className="row-flex-item">
-                  {val}
-                </Typography>
-              )
-            })}
+            {listItemsWithDividers}
           </Paper>
           <br />
           <div style={{textAlign:"left"}}>
