@@ -47,10 +47,10 @@ export default class SkillComponent extends React.Component {
     this.setState({...this.state, skillObj})
   }
   render() {
-    const { name, tag, descMarkdown, docLink, features, relatedLinks } = this.state.skillObj
+    const { name, tags, descMarkdown, docLink, features, relatedLinks } = this.state.skillObj
     
     // Generate list items with dividers
-    const listItems = tag.map((val, idx) => {
+    const listItems = tags.map((val, idx) => {
       return (
         <Typography color="textSecondary" className="row-flex-item">
           {val}
