@@ -201,7 +201,7 @@ export default {
 		"name": "Collab Tools",
 		"docLink": "https://reactjs.org/",
 		"tags": ["Agile", "Kanban board", "Sprint"],
-		"descMarkdown": "## General Project Management tools\n* Monday\n* Jira\n* Trello\n"
+		"descMarkdown": "## General Project Management tools\n* Jira\n* Trello\n"
 	},
 	"Component Libraries": {
 		"name": "Component Libraries",
